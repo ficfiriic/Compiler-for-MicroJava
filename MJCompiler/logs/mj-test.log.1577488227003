@@ -1,0 +1,57 @@
+INFO  00:09:01,821 - Compiling source file: C:\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  00:09:01,934 - #2 program
+INFO  00:09:01,935 - #21 prog
+INFO  00:09:01,935 - #33 class
+INFO  00:09:01,937 - #21 Tanja
+INFO  00:09:01,937 - #34 extends
+INFO  00:09:01,937 - #21 Lukic
+INFO  00:09:01,938 - #3 {
+INFO  00:09:01,939 - #21 int
+INFO  00:09:01,940 - #21 x
+INFO  00:09:01,940 - #6 ;
+INFO  00:09:01,941 - #4 }
+INFO  00:09:01,942 - #3 {
+INFO  00:09:01,944 - #4 }
+INFO  00:09:01,946 - Program(
+  ProgName(
+   prog
+  ) [ProgName]
+  DeclListFirst(
+    DeclListNoDecl(
+    ) [DeclListNoDecl]
+    DeclarationDerived4(
+      ClassDecl(
+       Tanja
+        ClassExtendingTypes(
+          Type(
+           Lukic
+          ) [Type]
+        ) [ClassExtendingTypes]
+        VarDeclarations(
+          NoVarDecl(
+          ) [NoVarDecl]
+          VarDeclMain(
+            VariableDeclaration(
+              Type(
+               int
+              ) [Type]
+              VarDeclHelperDerived1(
+               x
+              ) [VarDeclHelperDerived1]
+            ) [VariableDeclaration]
+          ) [VarDeclMain]
+        ) [VarDeclarations]
+        ClassWithOutMethodDecl(
+        ) [ClassWithOutMethodDecl]
+      ) [ClassDecl]
+    ) [DeclarationDerived4]
+  ) [DeclListFirst]
+  NoMethodDecl(
+  ) [NoMethodDecl]
+) [Program]
+INFO  00:09:01,947 - ===================================
+INFO  00:09:01,950 - Print count call = 0
+INFO  00:09:01,951 - Var count calls = 1
+INFO  00:09:01,951 - Const count calls = 0
+INFO  00:09:01,951 - Class count calls = 1
+INFO  00:09:01,951 - Method count calls = 0

@@ -1,0 +1,475 @@
+INFO  23:19:30,319 - Compiling source file: C:\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  23:19:30,436 - #2 program
+INFO  23:19:30,436 - #21 proba
+INFO  23:19:30,436 - #21 int
+INFO  23:19:30,438 - #21 x
+INFO  23:19:30,439 - #9 ,
+INFO  23:19:30,441 - #21 y
+INFO  23:19:30,441 - #9 ,
+INFO  23:19:30,441 - #21 z
+INFO  23:19:30,442 - #41 [
+INFO  23:19:30,442 - #42 ]
+INFO  23:19:30,442 - #6 ;
+INFO  23:19:30,442 - #21 char
+INFO  23:19:30,443 - #21 a
+INFO  23:19:30,443 - #9 ,
+INFO  23:19:30,443 - #21 b
+INFO  23:19:30,443 - #9 ,
+INFO  23:19:30,443 - #21 c
+INFO  23:19:30,444 - #41 [
+INFO  23:19:30,444 - #42 ]
+INFO  23:19:30,444 - #6 ;
+INFO  23:19:30,444 - #21 bool
+INFO  23:19:30,444 - #21 t
+INFO  23:19:30,445 - #9 ,
+INFO  23:19:30,445 - #21 f
+INFO  23:19:30,445 - #41 [
+INFO  23:19:30,445 - #42 ]
+INFO  23:19:30,445 - #6 ;
+INFO  23:19:30,445 - #5 const
+INFO  23:19:30,445 - #21 int
+INFO  23:19:30,446 - #21 konInt
+INFO  23:19:30,446 - #14 =
+INFO  23:19:30,446 - #20 15
+INFO  23:19:30,446 - #6 ;
+INFO  23:19:30,447 - #5 const
+INFO  23:19:30,448 - #21 char
+INFO  23:19:30,448 - #21 konChar
+INFO  23:19:30,448 - #14 =
+INFO  23:19:30,448 - #23 a
+INFO  23:19:30,448 - #6 ;
+INFO  23:19:30,450 - #5 const
+INFO  23:19:30,450 - #21 bool
+INFO  23:19:30,450 - #21 konBool
+INFO  23:19:30,450 - #14 =
+INFO  23:19:30,451 - #22 true
+INFO  23:19:30,451 - #6 ;
+INFO  23:19:30,452 - #3 {
+INFO  23:19:30,453 - #21 bool
+INFO  23:19:30,454 - #21 fjaBool
+INFO  23:19:30,455 - #7 (
+INFO  23:19:30,456 - #8 )
+INFO  23:19:30,457 - #21 bool
+INFO  23:19:30,459 - #21 x
+INFO  23:19:30,459 - #9 ,
+INFO  23:19:30,459 - #21 y
+INFO  23:19:30,459 - #6 ;
+INFO  23:19:30,459 - #3 {
+INFO  23:19:30,460 - #12 return
+INFO  23:19:30,461 - #21 t
+INFO  23:19:30,463 - #6 ;
+INFO  23:19:30,466 - #4 }
+INFO  23:19:30,466 - #21 int
+INFO  23:19:30,466 - #21 fjaInt
+INFO  23:19:30,467 - #7 (
+INFO  23:19:30,467 - #8 )
+INFO  23:19:30,467 - #21 int
+INFO  23:19:30,467 - #21 t
+INFO  23:19:30,467 - #6 ;
+INFO  23:19:30,467 - #3 {
+INFO  23:19:30,472 - #21 t
+INFO  23:19:30,472 - #14 =
+INFO  23:19:30,473 - #21 y
+INFO  23:19:30,474 - #41 [
+INFO  23:19:30,474 - #20 1
+INFO  23:19:30,474 - #42 ]
+INFO  23:19:30,474 - #13 +
+INFO  23:19:30,475 - #21 y
+INFO  23:19:30,476 - #41 [
+INFO  23:19:30,476 - #20 36
+INFO  23:19:30,476 - #42 ]
+INFO  23:19:30,476 - #13 +
+INFO  23:19:30,476 - #20 56
+INFO  23:19:30,477 - #6 ;
+INFO  23:19:30,478 - #4 }
+INFO  23:19:30,478 - #15 void
+INFO  23:19:30,478 - #21 main
+INFO  23:19:30,480 - #7 (
+INFO  23:19:30,480 - #8 )
+INFO  23:19:30,480 - #21 int
+INFO  23:19:30,480 - #21 a
+INFO  23:19:30,481 - #9 ,
+INFO  23:19:30,481 - #21 b
+INFO  23:19:30,481 - #6 ;
+INFO  23:19:30,481 - #3 {
+INFO  23:19:30,481 - #4 }
+INFO  23:19:30,481 - #4 }
+INFO  23:19:30,506 - Program(
+  ProgName(
+   proba
+  ) [ProgName]
+  DeclListFirst(
+    DeclListFirst(
+      DeclListFirst(
+        DeclListFirst(
+          DeclListFirst(
+            DeclListFirst(
+              DeclListNoDecl(
+              ) [DeclListNoDecl]
+              DeclarationDerived2(
+                VarDeclMain(
+                  VariablesDeclarations(
+                    VariablesDeclarations(
+                      VariableDeclaration(
+                        Type(
+                         int
+                        ) [Type]
+                        VarDeclHelperDerived1(
+                          VarDeclName(
+                           x
+                          ) [VarDeclName]
+                        ) [VarDeclHelperDerived1]
+                      ) [VariableDeclaration]
+                      VarDeclHelperDerived1(
+                        VarDeclName(
+                         y
+                        ) [VarDeclName]
+                      ) [VarDeclHelperDerived1]
+                    ) [VariablesDeclarations]
+                    VarDeclHelperDerived2(
+                      VarDeclName(
+                       z
+                      ) [VarDeclName]
+                    ) [VarDeclHelperDerived2]
+                  ) [VariablesDeclarations]
+                ) [VarDeclMain]
+              ) [DeclarationDerived2]
+            ) [DeclListFirst]
+            DeclarationDerived2(
+              VarDeclMain(
+                VariablesDeclarations(
+                  VariablesDeclarations(
+                    VariableDeclaration(
+                      Type(
+                       char
+                      ) [Type]
+                      VarDeclHelperDerived1(
+                        VarDeclName(
+                         a
+                        ) [VarDeclName]
+                      ) [VarDeclHelperDerived1]
+                    ) [VariableDeclaration]
+                    VarDeclHelperDerived1(
+                      VarDeclName(
+                       b
+                      ) [VarDeclName]
+                    ) [VarDeclHelperDerived1]
+                  ) [VariablesDeclarations]
+                  VarDeclHelperDerived2(
+                    VarDeclName(
+                     c
+                    ) [VarDeclName]
+                  ) [VarDeclHelperDerived2]
+                ) [VariablesDeclarations]
+              ) [VarDeclMain]
+            ) [DeclarationDerived2]
+          ) [DeclListFirst]
+          DeclarationDerived2(
+            VarDeclMain(
+              VariablesDeclarations(
+                VariableDeclaration(
+                  Type(
+                   bool
+                  ) [Type]
+                  VarDeclHelperDerived1(
+                    VarDeclName(
+                     t
+                    ) [VarDeclName]
+                  ) [VarDeclHelperDerived1]
+                ) [VariableDeclaration]
+                VarDeclHelperDerived2(
+                  VarDeclName(
+                   f
+                  ) [VarDeclName]
+                ) [VarDeclHelperDerived2]
+              ) [VariablesDeclarations]
+            ) [VarDeclMain]
+          ) [DeclarationDerived2]
+        ) [DeclListFirst]
+        DeclarationDerived1(
+          ConstDeclarationMain(
+            ConstantDeclaration(
+              Type(
+               int
+              ) [Type]
+              ConstantDeclarationHelp(
+               konInt
+                NumConstant(
+                  FactNumConst(
+                   15
+                  ) [FactNumConst]
+                ) [NumConstant]
+              ) [ConstantDeclarationHelp]
+            ) [ConstantDeclaration]
+          ) [ConstDeclarationMain]
+        ) [DeclarationDerived1]
+      ) [DeclListFirst]
+      DeclarationDerived1(
+        ConstDeclarationMain(
+          ConstantDeclaration(
+            Type(
+             char
+            ) [Type]
+            ConstantDeclarationHelp(
+             konChar
+              CharConstant(
+                FactCharConst(
+                 a
+                ) [FactCharConst]
+              ) [CharConstant]
+            ) [ConstantDeclarationHelp]
+          ) [ConstantDeclaration]
+        ) [ConstDeclarationMain]
+      ) [DeclarationDerived1]
+    ) [DeclListFirst]
+    DeclarationDerived1(
+      ConstDeclarationMain(
+        ConstantDeclaration(
+          Type(
+           bool
+          ) [Type]
+          ConstantDeclarationHelp(
+           konBool
+            BoolConstant(
+              FactBoolConst(
+               true
+              ) [FactBoolConst]
+            ) [BoolConstant]
+          ) [ConstantDeclarationHelp]
+        ) [ConstantDeclaration]
+      ) [ConstDeclarationMain]
+    ) [DeclarationDerived1]
+  ) [DeclListFirst]
+  MethodDeclarations(
+    MethodDeclarations(
+      MethodDeclarations(
+        NoMethodDecl(
+        ) [NoMethodDecl]
+        MethodDeclMain(
+          MethodTypeName(
+            MethodReturnTypeMain(
+              Type(
+               bool
+              ) [Type]
+            ) [MethodReturnTypeMain]
+           fjaBool
+          ) [MethodTypeName]
+          NoFormParam(
+          ) [NoFormParam]
+          VarDeclarations(
+            NoVarDecl(
+            ) [NoVarDecl]
+            VarDeclMain(
+              VariablesDeclarations(
+                VariableDeclaration(
+                  Type(
+                   bool
+                  ) [Type]
+                  VarDeclHelperDerived1(
+                    VarDeclName(
+                     x
+                    ) [VarDeclName]
+                  ) [VarDeclHelperDerived1]
+                ) [VariableDeclaration]
+                VarDeclHelperDerived1(
+                  VarDeclName(
+                   y
+                  ) [VarDeclName]
+                ) [VarDeclHelperDerived1]
+              ) [VariablesDeclarations]
+            ) [VarDeclMain]
+          ) [VarDeclarations]
+          Statements(
+            NoStmt(
+            ) [NoStmt]
+            ReturnExpr(
+              TermExpr(
+                NonMinus(
+                ) [NonMinus]
+                TermMain(
+                  Var(
+                    Designator(
+                     t
+                      NoDesignatorHelperList(
+                      ) [NoDesignatorHelperList]
+                    ) [Designator]
+                  ) [Var]
+                ) [TermMain]
+              ) [TermExpr]
+            ) [ReturnExpr]
+          ) [Statements]
+        ) [MethodDeclMain]
+      ) [MethodDeclarations]
+      MethodDeclMain(
+        MethodTypeName(
+          MethodReturnTypeMain(
+            Type(
+             int
+            ) [Type]
+          ) [MethodReturnTypeMain]
+         fjaInt
+        ) [MethodTypeName]
+        NoFormParam(
+        ) [NoFormParam]
+        VarDeclarations(
+          NoVarDecl(
+          ) [NoVarDecl]
+          VarDeclMain(
+            VariableDeclaration(
+              Type(
+               int
+              ) [Type]
+              VarDeclHelperDerived1(
+                VarDeclName(
+                 t
+                ) [VarDeclName]
+              ) [VarDeclHelperDerived1]
+            ) [VariableDeclaration]
+          ) [VarDeclMain]
+        ) [VarDeclarations]
+        Statements(
+          NoStmt(
+          ) [NoStmt]
+          Assignment(
+            DesignatorStatement(
+              Designator(
+               t
+                NoDesignatorHelperList(
+                ) [NoDesignatorHelperList]
+              ) [Designator]
+              DesignatorStatementHelperEqual(
+                Assignop(
+                ) [Assignop]
+                AddExpr(
+                  AddExpr(
+                    TermExpr(
+                      NonMinus(
+                      ) [NonMinus]
+                      TermMain(
+                        Var(
+                          Designator(
+                           y
+                            DesignatorHelperListMain(
+                              NoDesignatorHelperList(
+                              ) [NoDesignatorHelperList]
+                              ArrayPartHelper(
+                                TermExpr(
+                                  NonMinus(
+                                  ) [NonMinus]
+                                  TermMain(
+                                    NumConst(
+                                      FactNumConst(
+                                       1
+                                      ) [FactNumConst]
+                                    ) [NumConst]
+                                  ) [TermMain]
+                                ) [TermExpr]
+                              ) [ArrayPartHelper]
+                            ) [DesignatorHelperListMain]
+                          ) [Designator]
+                        ) [Var]
+                      ) [TermMain]
+                    ) [TermExpr]
+                    Addop(
+                    ) [Addop]
+                    TermMain(
+                      Var(
+                        Designator(
+                         y
+                          DesignatorHelperListMain(
+                            NoDesignatorHelperList(
+                            ) [NoDesignatorHelperList]
+                            ArrayPartHelper(
+                              TermExpr(
+                                NonMinus(
+                                ) [NonMinus]
+                                TermMain(
+                                  NumConst(
+                                    FactNumConst(
+                                     36
+                                    ) [FactNumConst]
+                                  ) [NumConst]
+                                ) [TermMain]
+                              ) [TermExpr]
+                            ) [ArrayPartHelper]
+                          ) [DesignatorHelperListMain]
+                        ) [Designator]
+                      ) [Var]
+                    ) [TermMain]
+                  ) [AddExpr]
+                  Addop(
+                  ) [Addop]
+                  TermMain(
+                    NumConst(
+                      FactNumConst(
+                       56
+                      ) [FactNumConst]
+                    ) [NumConst]
+                  ) [TermMain]
+                ) [AddExpr]
+              ) [DesignatorStatementHelperEqual]
+            ) [DesignatorStatement]
+          ) [Assignment]
+        ) [Statements]
+      ) [MethodDeclMain]
+    ) [MethodDeclarations]
+    MethodDeclMain(
+      MethodTypeName(
+        MethodVoidReturnType(
+        ) [MethodVoidReturnType]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      VarDeclarations(
+        NoVarDecl(
+        ) [NoVarDecl]
+        VarDeclMain(
+          VariablesDeclarations(
+            VariableDeclaration(
+              Type(
+               int
+              ) [Type]
+              VarDeclHelperDerived1(
+                VarDeclName(
+                 a
+                ) [VarDeclName]
+              ) [VarDeclHelperDerived1]
+            ) [VariableDeclaration]
+            VarDeclHelperDerived1(
+              VarDeclName(
+               b
+              ) [VarDeclName]
+            ) [VarDeclHelperDerived1]
+          ) [VariablesDeclarations]
+        ) [VarDeclMain]
+      ) [VarDeclarations]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclMain]
+  ) [MethodDeclarations]
+) [Program]
+INFO  23:19:30,507 - ===================================
+INFO  23:19:30,513 - Deklarisana promenljiva x na liniji 2
+INFO  23:19:30,514 - Deklarisana promenljiva y na liniji 2
+INFO  23:19:30,514 - Deklarisana promenljiva z na liniji 2
+INFO  23:19:30,514 - Deklarisana promenljiva a na liniji 3
+INFO  23:19:30,514 - Deklarisana promenljiva b na liniji 3
+INFO  23:19:30,514 - Deklarisana promenljiva c na liniji 3
+INFO  23:19:30,514 - Deklarisana promenljiva t na liniji 4
+INFO  23:19:30,515 - Deklarisana promenljiva f na liniji 4
+INFO  23:19:30,515 - Deklarisana konstanta konInt na liniji 5
+INFO  23:19:30,515 - Deklarisana konstanta konChar na liniji 6
+INFO  23:19:30,515 - Deklarisana konstanta konBool na liniji 7
+INFO  23:19:30,515 - Obradjuje se funkcija fjaBool na liniji 11
+INFO  23:19:30,515 - Deklarisana promenljiva x na liniji 11
+INFO  23:19:30,516 - Deklarisana promenljiva y na liniji 11
+INFO  23:19:30,516 - Obradjuje se funkcija fjaInt na liniji 12
+INFO  23:19:30,516 - Deklarisana promenljiva t na liniji 12
+INFO  23:19:30,516 - Obradjuje se funkcija main na liniji 16
+INFO  23:19:30,517 - Deklarisana promenljiva a na liniji 17
+INFO  23:19:30,517 - Deklarisana promenljiva b na liniji 17
+INFO  23:19:30,517 -  Print count calls = 0
+INFO  23:19:30,517 -  Deklarisanih promenljivih ima = 13
+INFO  23:19:30,517 - ===================================
+INFO  23:19:30,518 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,39 @@
+INFO  16:23:35,988 - Compiling source file: C:\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  16:23:36,108 - #2 program
+INFO  16:23:36,108 - #21 proba
+INFO  16:23:36,108 - #21 inte
+INFO  16:23:36,110 - #21 x
+INFO  16:23:36,112 - #6 ;
+INFO  16:23:36,113 - #3 {
+INFO  16:23:36,114 - #4 }
+INFO  16:23:36,134 - Program(
+  ProgName(
+   proba
+  ) [ProgName]
+  DeclListFirst(
+    DeclListNoDecl(
+    ) [DeclListNoDecl]
+    DeclarationDerived2(
+      VarDeclMain(
+        VariableDeclaration(
+          Type(
+           inte
+          ) [Type]
+          VarDeclHelperDerived1(
+            VarDeclName(
+             x
+            ) [VarDeclName]
+          ) [VarDeclHelperDerived1]
+        ) [VariableDeclaration]
+      ) [VarDeclMain]
+    ) [DeclarationDerived2]
+  ) [DeclListFirst]
+  NoMethodDecl(
+  ) [NoMethodDecl]
+) [Program]
+INFO  16:23:36,134 - ===================================
+ERROR 16:23:36,138 - Nije pronadjen tip inte u tabeli simbola! 
+INFO  16:23:36,138 -  Print count calls = 0
+INFO  16:23:36,138 -  Deklarisanih promenljivih ima = 0
+INFO  16:23:36,138 - ===================================
+ERROR 16:23:36,139 - Parsiranje NIJE uspesno zavrseno!

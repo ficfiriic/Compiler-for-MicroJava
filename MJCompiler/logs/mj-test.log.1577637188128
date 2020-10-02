@@ -1,0 +1,89 @@
+INFO  17:22:13,506 - Compiling source file: C:\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  17:22:13,619 - #2 program
+INFO  17:22:13,620 - #21 proba
+INFO  17:22:13,620 - #21 char
+INFO  17:22:13,622 - #21 x
+INFO  17:22:13,623 - #6 ;
+INFO  17:22:13,625 - #21 int
+INFO  17:22:13,625 - #21 y
+INFO  17:22:13,625 - #9 ,
+INFO  17:22:13,625 - #21 k
+INFO  17:22:13,626 - #6 ;
+INFO  17:22:13,626 - #21 bool
+INFO  17:22:13,626 - #21 z
+INFO  17:22:13,626 - #6 ;
+INFO  17:22:13,626 - #3 {
+INFO  17:22:13,627 - #4 }
+INFO  17:22:13,648 - Program(
+  ProgName(
+   proba
+  ) [ProgName]
+  DeclListFirst(
+    DeclListFirst(
+      DeclListFirst(
+        DeclListNoDecl(
+        ) [DeclListNoDecl]
+        DeclarationDerived2(
+          VarDeclMain(
+            VariableDeclaration(
+              Type(
+               char
+              ) [Type]
+              VarDeclHelperDerived1(
+                VarDeclName(
+                 x
+                ) [VarDeclName]
+              ) [VarDeclHelperDerived1]
+            ) [VariableDeclaration]
+          ) [VarDeclMain]
+        ) [DeclarationDerived2]
+      ) [DeclListFirst]
+      DeclarationDerived2(
+        VarDeclMain(
+          VariablesDeclarations(
+            VariableDeclaration(
+              Type(
+               int
+              ) [Type]
+              VarDeclHelperDerived1(
+                VarDeclName(
+                 y
+                ) [VarDeclName]
+              ) [VarDeclHelperDerived1]
+            ) [VariableDeclaration]
+            VarDeclHelperDerived1(
+              VarDeclName(
+               k
+              ) [VarDeclName]
+            ) [VarDeclHelperDerived1]
+          ) [VariablesDeclarations]
+        ) [VarDeclMain]
+      ) [DeclarationDerived2]
+    ) [DeclListFirst]
+    DeclarationDerived2(
+      VarDeclMain(
+        VariableDeclaration(
+          Type(
+           bool
+          ) [Type]
+          VarDeclHelperDerived1(
+            VarDeclName(
+             z
+            ) [VarDeclName]
+          ) [VarDeclHelperDerived1]
+        ) [VariableDeclaration]
+      ) [VarDeclMain]
+    ) [DeclarationDerived2]
+  ) [DeclListFirst]
+  NoMethodDecl(
+  ) [NoMethodDecl]
+) [Program]
+INFO  17:22:13,649 - ===================================
+INFO  17:22:13,653 - Deklarisana promenljiva x na liniji 3
+INFO  17:22:13,653 - Deklarisana promenljiva y na liniji 4
+INFO  17:22:13,654 - Deklarisana promenljiva k na liniji 4
+INFO  17:22:13,654 - Deklarisana promenljiva z na liniji 5
+INFO  17:22:13,654 -  Print count calls = 0
+INFO  17:22:13,654 -  Deklarisanih promenljivih ima = 4
+INFO  17:22:13,654 - ===================================
+INFO  17:22:13,655 - Parsiranje uspesno zavrseno!

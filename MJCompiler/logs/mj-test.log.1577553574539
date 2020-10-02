@@ -1,0 +1,106 @@
+INFO  18:09:49,825 - Compiling source file: C:\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  18:09:49,937 - #2 program
+INFO  18:09:49,937 - #21 proba
+INFO  18:09:49,937 - #21 int
+INFO  18:09:49,939 - #21 h
+INFO  18:09:49,940 - #6 ;
+INFO  18:09:49,941 - #21 int
+INFO  18:09:49,941 - #21 x
+INFO  18:09:49,942 - #3 {
+ERROR 18:09:49,942 - 
+Sintaksna greska na liniji 3
+INFO  18:09:49,942 - #4 }
+INFO  18:09:49,942 - #9 ,
+INFO  18:09:49,942 - #21 y
+INFO  18:09:49,943 - #6 ;
+INFO  18:09:49,943 - #21 int
+ERROR 18:09:49,944 - Uspesan oporavak od greske pri definisanju promenljivih na liniji 6
+INFO  18:09:49,945 - #21 k
+INFO  18:09:49,945 - #14 =
+ERROR 18:09:49,946 - 
+Sintaksna greska na liniji 4
+INFO  18:09:49,946 - #6 ;
+INFO  18:09:49,956 - #3 {
+INFO  18:09:49,956 - #15 void
+INFO  18:09:49,956 - #21 main
+ERROR 18:09:49,956 - Uspesan oporavak od greske pri definisanju promenljivih na liniji 11
+INFO  18:09:49,958 - #7 (
+INFO  18:09:49,960 - #8 )
+INFO  18:09:49,961 - #3 {
+INFO  18:09:49,962 - #21 int
+INFO  18:09:49,963 - #14 =
+INFO  18:09:49,965 - #6 ;
+ERROR 18:09:49,965 - 
+Sintaksna greska na liniji 7
+INFO  18:09:49,965 - #4 }
+INFO  18:09:49,965 - #4 }
+ERROR 18:09:49,966 - Uspesan oporavak od greske pri dodeli vrednosti na liniji 7
+INFO  18:09:49,971 - Program(
+  ProgName(
+   proba
+  ) [ProgName]
+  DeclListFirst(
+    DeclListFirst(
+      DeclListFirst(
+        DeclListNoDecl(
+        ) [DeclListNoDecl]
+        DeclarationDerived2(
+          VarDeclMain(
+            VariableDeclaration(
+              Type(
+               int
+              ) [Type]
+              VarDeclHelperDerived1(
+               h
+              ) [VarDeclHelperDerived1]
+            ) [VariableDeclaration]
+          ) [VarDeclMain]
+        ) [DeclarationDerived2]
+      ) [DeclListFirst]
+      DeclarationDerived2(
+        VarDeclMain(
+          VariablesDeclarations(
+            ErrAssignmentVar(
+            ) [ErrAssignmentVar]
+            VarDeclHelperDerived1(
+             y
+            ) [VarDeclHelperDerived1]
+          ) [VariablesDeclarations]
+        ) [VarDeclMain]
+      ) [DeclarationDerived2]
+    ) [DeclListFirst]
+    DeclarationDerived2(
+      VarDeclMain(
+        ErrAssignmentVar(
+        ) [ErrAssignmentVar]
+      ) [VarDeclMain]
+    ) [DeclarationDerived2]
+  ) [DeclListFirst]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclMain(
+      MethodTypeName(
+        MethodVoidReturnType(
+        ) [MethodVoidReturnType]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        ErrAssignment(
+        ) [ErrAssignment]
+      ) [Statements]
+    ) [MethodDeclMain]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:09:49,971 - ===================================
+INFO  18:09:49,976 - Print count call = 0
+INFO  18:09:49,976 - Var count calls = 3
+INFO  18:09:49,976 - Const count calls = 0
+INFO  18:09:49,976 - Class count calls = 0
+INFO  18:09:49,976 - Method count calls = 1

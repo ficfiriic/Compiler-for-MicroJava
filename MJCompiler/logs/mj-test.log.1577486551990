@@ -1,0 +1,66 @@
+INFO  23:38:54,286 - Compiling source file: C:\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  23:38:54,398 - #2 program
+INFO  23:38:54,398 - #21 prog
+INFO  23:38:54,398 - #3 {
+INFO  23:38:54,400 - #21 int
+INFO  23:38:54,401 - #21 main
+INFO  23:38:54,403 - #7 (
+INFO  23:38:54,405 - #8 )
+INFO  23:38:54,406 - #21 int
+INFO  23:38:54,407 - #21 x
+INFO  23:38:54,407 - #9 ,
+INFO  23:38:54,407 - #21 y
+INFO  23:38:54,407 - #6 ;
+INFO  23:38:54,408 - #3 {
+INFO  23:38:54,408 - #4 }
+INFO  23:38:54,409 - #4 }
+INFO  23:38:54,411 - Program(
+  ProgName(
+   prog
+  ) [ProgName]
+  DeclListNoDecl(
+  ) [DeclListNoDecl]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclMain(
+      MethodTypeName(
+        MethodReturnTypeMain(
+          Type(
+           int
+          ) [Type]
+        ) [MethodReturnTypeMain]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      VarDeclarations(
+        NoVarDecl(
+        ) [NoVarDecl]
+        VarDeclMain(
+          VariablesDeclarations(
+            VariableDeclaration(
+              Type(
+               int
+              ) [Type]
+              VarDeclHelperDerived1(
+               x
+              ) [VarDeclHelperDerived1]
+            ) [VariableDeclaration]
+            VarDeclHelperDerived1(
+             y
+            ) [VarDeclHelperDerived1]
+          ) [VariablesDeclarations]
+        ) [VarDeclMain]
+      ) [VarDeclarations]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclMain]
+  ) [MethodDeclarations]
+) [Program]
+INFO  23:38:54,412 - ===================================
+INFO  23:38:54,416 - Print count call = 0
+INFO  23:38:54,416 - Var count calls = 1
+INFO  23:38:54,416 - Const count calls = 0
+INFO  23:38:54,416 - Class count calls = 0
+INFO  23:38:54,416 - Method count calls = 1

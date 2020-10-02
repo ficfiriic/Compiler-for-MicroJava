@@ -1,0 +1,53 @@
+INFO  15:05:38,364 - Compiling source file: C:\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  15:05:38,562 - #2 program
+INFO  15:05:38,562 - #21 proba
+INFO  15:05:38,562 - #3 {
+INFO  15:05:38,565 - #15 void
+INFO  15:05:38,567 - #21 main
+INFO  15:05:38,569 - #7 (
+INFO  15:05:38,570 - #8 )
+INFO  15:05:38,572 - #3 {
+INFO  15:05:38,573 - #21 tanja
+INFO  15:05:38,575 - #14 =
+INFO  15:05:38,577 - #21 g
+INFO  15:05:38,581 - #13 +
+INFO  15:05:38,582 - #6 ;
+ERROR 15:05:38,582 - 
+Sintaksna greska na liniji 4
+INFO  15:05:38,582 - #4 }
+INFO  15:05:38,582 - #4 }
+ERROR 15:05:38,584 - Uspesan oporavak od greske pri dodeli vrednosti na liniji .4
+INFO  15:05:38,588 - Program(
+  ProgName(
+   proba
+  ) [ProgName]
+  DeclListNoDecl(
+  ) [DeclListNoDecl]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclMain(
+      MethodTypeName(
+        MethodVoidReturnType(
+        ) [MethodVoidReturnType]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        ErrAssignment(
+        ) [ErrAssignment]
+      ) [Statements]
+    ) [MethodDeclMain]
+  ) [MethodDeclarations]
+) [Program]
+INFO  15:05:38,589 - ===================================
+INFO  15:05:38,595 - Print count call = 0
+INFO  15:05:38,595 - Var count calls = 0
+INFO  15:05:38,595 - Const count calls = 0
+INFO  15:05:38,595 - Class count calls = 0
+INFO  15:05:38,596 - Method count calls = 1

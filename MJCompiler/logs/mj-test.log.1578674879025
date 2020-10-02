@@ -1,0 +1,148 @@
+INFO  17:38:27,515 - Compiling source file: C:\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  17:38:27,637 - #2 program
+INFO  17:38:27,638 - #21 test301
+INFO  17:38:27,638 - #21 ink
+INFO  17:38:27,641 - #21 x
+INFO  17:38:27,643 - #6 ;
+INFO  17:38:27,645 - #21 c
+INFO  17:38:27,648 - #6 ;
+ERROR 17:38:27,649 - 
+Sintaksna greska na liniji 4
+INFO  17:38:27,650 - #3 {
+INFO  17:38:27,650 - #21 int
+INFO  17:38:27,650 - #21 incInput
+ERROR 17:38:27,652 - Uspesan oporavak od greske pri dodeli vrednosti na liniji 4
+INFO  17:38:27,655 - #7 (
+INFO  17:38:27,656 - #8 )
+INFO  17:38:27,657 - #21 int
+INFO  17:38:27,659 - #21 nizz
+INFO  17:38:27,659 - #41 [
+INFO  17:38:27,659 - #42 ]
+INFO  17:38:27,660 - #6 ;
+INFO  17:38:27,660 - #21 int
+INFO  17:38:27,661 - #21 i
+INFO  17:38:27,661 - #6 ;
+INFO  17:38:27,661 - #3 {
+INFO  17:38:27,661 - #4 }
+INFO  17:38:27,664 - #15 void
+INFO  17:38:27,664 - #21 main
+INFO  17:38:27,666 - #7 (
+INFO  17:38:27,666 - #8 )
+INFO  17:38:27,666 - #21 int
+INFO  17:38:27,669 - #21 bodovi
+INFO  17:38:27,670 - #6 ;
+INFO  17:38:27,670 - #3 {
+INFO  17:38:27,671 - #4 }
+INFO  17:38:27,671 - #4 }
+INFO  17:38:27,674 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  DeclListFirst(
+    DeclListFirst(
+      DeclListNoDecl(
+      ) [DeclListNoDecl]
+      DeclarationDerived2(
+        VarDeclMain(
+          VariableDeclaration(
+            Type(
+             ink
+            ) [Type]
+            VarDeclHelperDerived1(
+              VarDeclName(
+               x
+              ) [VarDeclName]
+            ) [VarDeclHelperDerived1]
+          ) [VariableDeclaration]
+        ) [VarDeclMain]
+      ) [DeclarationDerived2]
+    ) [DeclListFirst]
+    DeclarationDerived2(
+      ErrAssignment2(
+      ) [ErrAssignment2]
+    ) [DeclarationDerived2]
+  ) [DeclListFirst]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDeclMain(
+        MethodTypeName(
+          MethodReturnTypeMain(
+            Type(
+             int
+            ) [Type]
+          ) [MethodReturnTypeMain]
+         incInput
+        ) [MethodTypeName]
+        NoFormParam(
+        ) [NoFormParam]
+        VarDeclarations(
+          VarDeclarations(
+            NoVarDecl(
+            ) [NoVarDecl]
+            VarDeclMain(
+              VariableDeclaration(
+                Type(
+                 int
+                ) [Type]
+                VarDeclHelperDerived2(
+                  VarDeclName(
+                   nizz
+                  ) [VarDeclName]
+                ) [VarDeclHelperDerived2]
+              ) [VariableDeclaration]
+            ) [VarDeclMain]
+          ) [VarDeclarations]
+          VarDeclMain(
+            VariableDeclaration(
+              Type(
+               int
+              ) [Type]
+              VarDeclHelperDerived1(
+                VarDeclName(
+                 i
+                ) [VarDeclName]
+              ) [VarDeclHelperDerived1]
+            ) [VariableDeclaration]
+          ) [VarDeclMain]
+        ) [VarDeclarations]
+        NoStmt(
+        ) [NoStmt]
+      ) [MethodDeclMain]
+    ) [MethodDeclarations]
+    MethodDeclMain(
+      MethodTypeName(
+        MethodVoidReturnType(
+        ) [MethodVoidReturnType]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      VarDeclarations(
+        NoVarDecl(
+        ) [NoVarDecl]
+        VarDeclMain(
+          VariableDeclaration(
+            Type(
+             int
+            ) [Type]
+            VarDeclHelperDerived1(
+              VarDeclName(
+               bodovi
+              ) [VarDeclName]
+            ) [VarDeclHelperDerived1]
+          ) [VariableDeclaration]
+        ) [VarDeclMain]
+      ) [VarDeclarations]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclMain]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:38:27,675 - ===================================
+INFO  17:38:27,683 - Print count call = 0
+INFO  17:38:27,683 - Var count calls = 4
+INFO  17:38:27,683 - Const count calls = 0
+INFO  17:38:27,683 - Class count calls = 0
+INFO  17:38:27,683 - Method count calls = 2

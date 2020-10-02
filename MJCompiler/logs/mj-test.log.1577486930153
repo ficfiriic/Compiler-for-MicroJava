@@ -1,0 +1,105 @@
+INFO  23:44:11,031 - Compiling source file: C:\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  23:44:11,149 - #2 program
+INFO  23:44:11,149 - #21 prog
+INFO  23:44:11,149 - #3 {
+INFO  23:44:11,151 - #21 int
+INFO  23:44:11,152 - #21 main
+INFO  23:44:11,154 - #7 (
+INFO  23:44:11,155 - #21 int
+INFO  23:44:11,155 - #21 a
+INFO  23:44:11,155 - #9 ,
+INFO  23:44:11,157 - #21 int
+INFO  23:44:11,157 - #21 b
+INFO  23:44:11,157 - #41 [
+INFO  23:44:11,157 - #42 ]
+INFO  23:44:11,157 - #8 )
+INFO  23:44:11,158 - #21 int
+INFO  23:44:11,159 - #21 x
+INFO  23:44:11,159 - #9 ,
+INFO  23:44:11,159 - #21 y
+INFO  23:44:11,160 - #6 ;
+INFO  23:44:11,160 - #3 {
+INFO  23:44:11,160 - #37 break
+INFO  23:44:11,162 - #6 ;
+INFO  23:44:11,162 - #36 continue
+INFO  23:44:11,164 - #6 ;
+INFO  23:44:11,164 - #4 }
+INFO  23:44:11,165 - #4 }
+INFO  23:44:11,167 - Program(
+  ProgName(
+   prog
+  ) [ProgName]
+  DeclListNoDecl(
+  ) [DeclListNoDecl]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclMain(
+      MethodTypeName(
+        MethodReturnTypeMain(
+          Type(
+           int
+          ) [Type]
+        ) [MethodReturnTypeMain]
+       main
+      ) [MethodTypeName]
+      FormParams(
+        FormalParamDecls(
+          SingleFormalParamDecl(
+            FormalParamDecl(
+              Type(
+               int
+              ) [Type]
+              VarDeclHelperDerived1(
+               a
+              ) [VarDeclHelperDerived1]
+            ) [FormalParamDecl]
+          ) [SingleFormalParamDecl]
+          FormalParamDecl(
+            Type(
+             int
+            ) [Type]
+            VarDeclHelperDerived2(
+             b
+            ) [VarDeclHelperDerived2]
+          ) [FormalParamDecl]
+        ) [FormalParamDecls]
+      ) [FormParams]
+      VarDeclarations(
+        NoVarDecl(
+        ) [NoVarDecl]
+        VarDeclMain(
+          VariablesDeclarations(
+            VariableDeclaration(
+              Type(
+               int
+              ) [Type]
+              VarDeclHelperDerived1(
+               x
+              ) [VarDeclHelperDerived1]
+            ) [VariableDeclaration]
+            VarDeclHelperDerived1(
+             y
+            ) [VarDeclHelperDerived1]
+          ) [VariablesDeclarations]
+        ) [VarDeclMain]
+      ) [VarDeclarations]
+      Statements(
+        Statements(
+          NoStmt(
+          ) [NoStmt]
+          BreakStmt(
+          ) [BreakStmt]
+        ) [Statements]
+        ContinueStmt(
+        ) [ContinueStmt]
+      ) [Statements]
+    ) [MethodDeclMain]
+  ) [MethodDeclarations]
+) [Program]
+INFO  23:44:11,168 - ===================================
+INFO  23:44:11,173 - Print count call = 0
+INFO  23:44:11,173 - Var count calls = 1
+INFO  23:44:11,173 - Const count calls = 0
+INFO  23:44:11,173 - Class count calls = 0
+INFO  23:44:11,173 - Method count calls = 1

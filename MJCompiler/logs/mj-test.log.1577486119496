@@ -1,0 +1,41 @@
+INFO  23:28:30,473 - Compiling source file: C:\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  23:28:30,581 - #2 program
+INFO  23:28:30,581 - #21 prog
+INFO  23:28:30,581 - #3 {
+INFO  23:28:30,583 - #15 void
+INFO  23:28:30,585 - #21 main
+INFO  23:28:30,586 - #7 (
+INFO  23:28:30,587 - #8 )
+INFO  23:28:30,588 - #3 {
+INFO  23:28:30,589 - #4 }
+INFO  23:28:30,591 - #4 }
+INFO  23:28:30,593 - Program(
+  ProgName(
+   prog
+  ) [ProgName]
+  DeclListNoDecl(
+  ) [DeclListNoDecl]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclMain(
+      MethodTypeName(
+        MethodVoidReturnType(
+        ) [MethodVoidReturnType]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclMain]
+  ) [MethodDeclarations]
+) [Program]
+INFO  23:28:30,594 - ===================================
+INFO  23:28:30,597 - Print count call = 0
+INFO  23:28:30,597 - Var count calls = 0
+INFO  23:28:30,598 - Const count calls = 0
+INFO  23:28:30,598 - Class count calls = 0
+INFO  23:28:30,598 - Method count calls = 0

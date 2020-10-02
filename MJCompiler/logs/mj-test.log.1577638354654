@@ -1,0 +1,132 @@
+INFO  17:52:10,858 - Compiling source file: C:\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  17:52:10,968 - #2 program
+INFO  17:52:10,968 - #21 proba
+INFO  17:52:10,968 - #21 char
+INFO  17:52:10,970 - #21 x
+INFO  17:52:10,971 - #6 ;
+INFO  17:52:10,973 - #5 const
+INFO  17:52:10,973 - #21 int
+INFO  17:52:10,974 - #21 tanja
+INFO  17:52:10,974 - #14 =
+INFO  17:52:10,974 - #20 15
+INFO  17:52:10,974 - #9 ,
+INFO  17:52:10,976 - #21 nikola
+INFO  17:52:10,976 - #14 =
+INFO  17:52:10,976 - #20 1
+INFO  17:52:10,976 - #6 ;
+INFO  17:52:10,976 - #21 int
+INFO  17:52:10,977 - #21 y
+INFO  17:52:10,977 - #41 [
+INFO  17:52:10,977 - #42 ]
+INFO  17:52:10,977 - #9 ,
+INFO  17:52:10,978 - #21 k
+INFO  17:52:10,978 - #6 ;
+INFO  17:52:10,979 - #21 bool
+INFO  17:52:10,979 - #21 z
+INFO  17:52:10,979 - #6 ;
+INFO  17:52:10,979 - #3 {
+INFO  17:52:10,979 - #4 }
+INFO  17:52:11,001 - Program(
+  ProgName(
+   proba
+  ) [ProgName]
+  DeclListFirst(
+    DeclListFirst(
+      DeclListFirst(
+        DeclListFirst(
+          DeclListNoDecl(
+          ) [DeclListNoDecl]
+          DeclarationDerived2(
+            VarDeclMain(
+              VariableDeclaration(
+                Type(
+                 char
+                ) [Type]
+                VarDeclHelperDerived1(
+                  VarDeclName(
+                   x
+                  ) [VarDeclName]
+                ) [VarDeclHelperDerived1]
+              ) [VariableDeclaration]
+            ) [VarDeclMain]
+          ) [DeclarationDerived2]
+        ) [DeclListFirst]
+        DeclarationDerived1(
+          ConstDeclarationMain(
+            ConstantDeclarations(
+              ConstantDeclaration(
+                Type(
+                 int
+                ) [Type]
+                ConstantDeclarationHelp(
+                 tanja
+                  NumConstant(
+                    FactNumConst(
+                     15
+                    ) [FactNumConst]
+                  ) [NumConstant]
+                ) [ConstantDeclarationHelp]
+              ) [ConstantDeclaration]
+              ConstantDeclarationHelp(
+               nikola
+                NumConstant(
+                  FactNumConst(
+                   1
+                  ) [FactNumConst]
+                ) [NumConstant]
+              ) [ConstantDeclarationHelp]
+            ) [ConstantDeclarations]
+          ) [ConstDeclarationMain]
+        ) [DeclarationDerived1]
+      ) [DeclListFirst]
+      DeclarationDerived2(
+        VarDeclMain(
+          VariablesDeclarations(
+            VariableDeclaration(
+              Type(
+               int
+              ) [Type]
+              VarDeclHelperDerived2(
+                VarDeclName(
+                 y
+                ) [VarDeclName]
+              ) [VarDeclHelperDerived2]
+            ) [VariableDeclaration]
+            VarDeclHelperDerived1(
+              VarDeclName(
+               k
+              ) [VarDeclName]
+            ) [VarDeclHelperDerived1]
+          ) [VariablesDeclarations]
+        ) [VarDeclMain]
+      ) [DeclarationDerived2]
+    ) [DeclListFirst]
+    DeclarationDerived2(
+      VarDeclMain(
+        VariableDeclaration(
+          Type(
+           bool
+          ) [Type]
+          VarDeclHelperDerived1(
+            VarDeclName(
+             z
+            ) [VarDeclName]
+          ) [VarDeclHelperDerived1]
+        ) [VariableDeclaration]
+      ) [VarDeclMain]
+    ) [DeclarationDerived2]
+  ) [DeclListFirst]
+  NoMethodDecl(
+  ) [NoMethodDecl]
+) [Program]
+INFO  17:52:11,002 - ===================================
+INFO  17:52:11,006 - Deklarisana promenljiva x na liniji 3
+INFO  17:52:11,006 - Deklarisana konstanta tanja na liniji 4
+INFO  17:52:11,006 - Deklarisana konstanta nikola na liniji 4
+INFO  17:52:11,006 - Deklarisana promenljiva y na liniji 5
+INFO  17:52:11,006 - Deklarisana promenljiva k na liniji 5
+INFO  17:52:11,007 - Deklarisana promenljiva z na liniji 6
+INFO  17:52:11,007 -  Print count calls = 0
+INFO  17:52:11,007 -  Deklarisanih promenljivih ima = 4
+INFO  17:52:11,007 - ===================================
+INFO  17:52:11,008 - Parsiranje uspesno zavrseno!

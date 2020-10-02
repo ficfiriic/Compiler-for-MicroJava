@@ -1,0 +1,136 @@
+INFO  17:49:07,834 - Compiling source file: C:\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  17:49:07,938 - #2 program
+INFO  17:49:07,938 - #21 test301
+INFO  17:49:07,938 - #21 int
+INFO  17:49:07,941 - #21 c
+INFO  17:49:07,942 - #9 ,
+INFO  17:49:07,943 - #21 k
+INFO  17:49:07,944 - #3 {
+ERROR 17:49:07,944 - 
+Sintaksna greska na liniji 4
+INFO  17:49:07,944 - #4 }
+INFO  17:49:07,944 - #9 ,
+INFO  17:49:07,944 - #21 l
+INFO  17:49:07,946 - #6 ;
+INFO  17:49:07,946 - #3 {
+INFO  17:49:07,946 - #21 int
+INFO  17:49:07,946 - #21 incInput
+ERROR 17:49:07,947 - Uspesan oporavak od greske pri dodeli vrednosti na liniji 4
+INFO  17:49:07,949 - #7 (
+INFO  17:49:07,951 - #8 )
+INFO  17:49:07,952 - #21 int
+INFO  17:49:07,953 - #21 nizz
+INFO  17:49:07,954 - #41 [
+INFO  17:49:07,954 - #42 ]
+INFO  17:49:07,954 - #6 ;
+INFO  17:49:07,954 - #21 int
+INFO  17:49:07,954 - #21 i
+INFO  17:49:07,954 - #6 ;
+INFO  17:49:07,954 - #3 {
+INFO  17:49:07,955 - #4 }
+INFO  17:49:07,956 - #15 void
+INFO  17:49:07,956 - #21 main
+INFO  17:49:07,957 - #7 (
+INFO  17:49:07,957 - #8 )
+INFO  17:49:07,958 - #21 int
+INFO  17:49:07,958 - #21 bodovi
+INFO  17:49:07,958 - #6 ;
+INFO  17:49:07,958 - #3 {
+INFO  17:49:07,958 - #4 }
+INFO  17:49:07,958 - #4 }
+INFO  17:49:07,961 - Program(
+  ProgName(
+   test301
+  ) [ProgName]
+  DeclListFirst(
+    DeclListNoDecl(
+    ) [DeclListNoDecl]
+    DeclarationDerived2(
+      ErrAssignment2(
+      ) [ErrAssignment2]
+    ) [DeclarationDerived2]
+  ) [DeclListFirst]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDeclMain(
+        MethodTypeName(
+          MethodReturnTypeMain(
+            Type(
+             int
+            ) [Type]
+          ) [MethodReturnTypeMain]
+         incInput
+        ) [MethodTypeName]
+        NoFormParam(
+        ) [NoFormParam]
+        VarDeclarations(
+          VarDeclarations(
+            NoVarDecl(
+            ) [NoVarDecl]
+            VarDeclMain(
+              VariableDeclaration(
+                Type(
+                 int
+                ) [Type]
+                VarDeclHelperDerived2(
+                  VarDeclName(
+                   nizz
+                  ) [VarDeclName]
+                ) [VarDeclHelperDerived2]
+              ) [VariableDeclaration]
+            ) [VarDeclMain]
+          ) [VarDeclarations]
+          VarDeclMain(
+            VariableDeclaration(
+              Type(
+               int
+              ) [Type]
+              VarDeclHelperDerived1(
+                VarDeclName(
+                 i
+                ) [VarDeclName]
+              ) [VarDeclHelperDerived1]
+            ) [VariableDeclaration]
+          ) [VarDeclMain]
+        ) [VarDeclarations]
+        NoStmt(
+        ) [NoStmt]
+      ) [MethodDeclMain]
+    ) [MethodDeclarations]
+    MethodDeclMain(
+      MethodTypeName(
+        MethodVoidReturnType(
+        ) [MethodVoidReturnType]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      VarDeclarations(
+        NoVarDecl(
+        ) [NoVarDecl]
+        VarDeclMain(
+          VariableDeclaration(
+            Type(
+             int
+            ) [Type]
+            VarDeclHelperDerived1(
+              VarDeclName(
+               bodovi
+              ) [VarDeclName]
+            ) [VarDeclHelperDerived1]
+          ) [VariableDeclaration]
+        ) [VarDeclMain]
+      ) [VarDeclarations]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclMain]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:49:07,961 - ===================================
+INFO  17:49:07,965 - Print count call = 0
+INFO  17:49:07,965 - Var count calls = 3
+INFO  17:49:07,965 - Const count calls = 0
+INFO  17:49:07,965 - Class count calls = 0
+INFO  17:49:07,965 - Method count calls = 2

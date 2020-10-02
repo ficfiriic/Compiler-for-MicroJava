@@ -1,0 +1,72 @@
+INFO  23:42:31,999 - Compiling source file: C:\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  23:42:32,112 - #2 program
+INFO  23:42:32,112 - #21 prog
+INFO  23:42:32,113 - #3 {
+INFO  23:42:32,115 - #21 int
+INFO  23:42:32,116 - #21 main
+INFO  23:42:32,117 - #7 (
+INFO  23:42:32,118 - #8 )
+INFO  23:42:32,119 - #21 int
+INFO  23:42:32,121 - #21 x
+INFO  23:42:32,121 - #9 ,
+INFO  23:42:32,121 - #21 y
+INFO  23:42:32,121 - #6 ;
+INFO  23:42:32,121 - #3 {
+INFO  23:42:32,122 - #37 break
+INFO  23:42:32,123 - #6 ;
+INFO  23:42:32,123 - #4 }
+INFO  23:42:32,124 - #4 }
+INFO  23:42:32,127 - Program(
+  ProgName(
+   prog
+  ) [ProgName]
+  DeclListNoDecl(
+  ) [DeclListNoDecl]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclMain(
+      MethodTypeName(
+        MethodReturnTypeMain(
+          Type(
+           int
+          ) [Type]
+        ) [MethodReturnTypeMain]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      VarDeclarations(
+        NoVarDecl(
+        ) [NoVarDecl]
+        VarDeclMain(
+          VariablesDeclarations(
+            VariableDeclaration(
+              Type(
+               int
+              ) [Type]
+              VarDeclHelperDerived1(
+               x
+              ) [VarDeclHelperDerived1]
+            ) [VariableDeclaration]
+            VarDeclHelperDerived1(
+             y
+            ) [VarDeclHelperDerived1]
+          ) [VariablesDeclarations]
+        ) [VarDeclMain]
+      ) [VarDeclarations]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        BreakStmt(
+        ) [BreakStmt]
+      ) [Statements]
+    ) [MethodDeclMain]
+  ) [MethodDeclarations]
+) [Program]
+INFO  23:42:32,127 - ===================================
+INFO  23:42:32,131 - Print count call = 0
+INFO  23:42:32,131 - Var count calls = 1
+INFO  23:42:32,131 - Const count calls = 0
+INFO  23:42:32,131 - Class count calls = 0
+INFO  23:42:32,132 - Method count calls = 1

@@ -1,0 +1,135 @@
+INFO  00:16:38,052 - Compiling source file: C:\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  00:16:38,163 - #2 program
+INFO  00:16:38,163 - #21 prog
+INFO  00:16:38,163 - #33 class
+INFO  00:16:38,165 - #21 Tanja
+INFO  00:16:38,166 - #34 extends
+INFO  00:16:38,166 - #21 Lukic
+INFO  00:16:38,166 - #3 {
+INFO  00:16:38,167 - #21 int
+INFO  00:16:38,168 - #21 x
+INFO  00:16:38,168 - #9 ,
+INFO  00:16:38,169 - #21 y
+INFO  00:16:38,169 - #6 ;
+INFO  00:16:38,169 - #21 int
+INFO  00:16:38,170 - #21 a
+INFO  00:16:38,170 - #41 [
+INFO  00:16:38,170 - #42 ]
+INFO  00:16:38,170 - #6 ;
+INFO  00:16:38,170 - #3 {
+INFO  00:16:38,170 - #21 int
+INFO  00:16:38,172 - #21 fja
+INFO  00:16:38,172 - #7 (
+INFO  00:16:38,173 - #21 int
+INFO  00:16:38,174 - #21 a
+INFO  00:16:38,174 - #8 )
+INFO  00:16:38,175 - #21 int
+INFO  00:16:38,175 - #21 b
+INFO  00:16:38,176 - #41 [
+INFO  00:16:38,176 - #42 ]
+INFO  00:16:38,176 - #3 {
+INFO  00:16:38,176 - #4 }
+INFO  00:16:38,177 - #4 }
+INFO  00:16:38,177 - #4 }
+INFO  00:16:38,178 - #3 {
+INFO  00:16:38,180 - #4 }
+INFO  00:16:38,183 - Program(
+  ProgName(
+   prog
+  ) [ProgName]
+  DeclListFirst(
+    DeclListNoDecl(
+    ) [DeclListNoDecl]
+    DeclarationDerived4(
+      ClassDecl(
+       Tanja
+        ClassExtendingTypes(
+          Type(
+           Lukic
+          ) [Type]
+        ) [ClassExtendingTypes]
+        VarDeclarations(
+          VarDeclarations(
+            NoVarDecl(
+            ) [NoVarDecl]
+            VarDeclMain(
+              VariablesDeclarations(
+                VariableDeclaration(
+                  Type(
+                   int
+                  ) [Type]
+                  VarDeclHelperDerived1(
+                   x
+                  ) [VarDeclHelperDerived1]
+                ) [VariableDeclaration]
+                VarDeclHelperDerived1(
+                 y
+                ) [VarDeclHelperDerived1]
+              ) [VariablesDeclarations]
+            ) [VarDeclMain]
+          ) [VarDeclarations]
+          VarDeclMain(
+            VariableDeclaration(
+              Type(
+               int
+              ) [Type]
+              VarDeclHelperDerived2(
+               a
+              ) [VarDeclHelperDerived2]
+            ) [VariableDeclaration]
+          ) [VarDeclMain]
+        ) [VarDeclarations]
+        ClassWithMethodDecl(
+          MethodDeclarations(
+            NoMethodDecl(
+            ) [NoMethodDecl]
+            MethodDeclMain(
+              MethodTypeName(
+                MethodReturnTypeMain(
+                  Type(
+                   int
+                  ) [Type]
+                ) [MethodReturnTypeMain]
+               fja
+              ) [MethodTypeName]
+              FormParams(
+                SingleFormalParamDecl(
+                  FormalParamDecl(
+                    Type(
+                     int
+                    ) [Type]
+                    VarDeclHelperDerived1(
+                     a
+                    ) [VarDeclHelperDerived1]
+                  ) [FormalParamDecl]
+                ) [SingleFormalParamDecl]
+              ) [FormParams]
+              VarDeclarations(
+                NoVarDecl(
+                ) [NoVarDecl]
+                VariableDeclaration(
+                  Type(
+                   int
+                  ) [Type]
+                  VarDeclHelperDerived2(
+                   b
+                  ) [VarDeclHelperDerived2]
+                ) [VariableDeclaration]
+              ) [VarDeclarations]
+              NoStmt(
+              ) [NoStmt]
+            ) [MethodDeclMain]
+          ) [MethodDeclarations]
+        ) [ClassWithMethodDecl]
+      ) [ClassDecl]
+    ) [DeclarationDerived4]
+  ) [DeclListFirst]
+  NoMethodDecl(
+  ) [NoMethodDecl]
+) [Program]
+INFO  00:16:38,183 - ===================================
+INFO  00:16:38,188 - Print count call = 0
+INFO  00:16:38,188 - Var count calls = 2
+INFO  00:16:38,188 - Const count calls = 0
+INFO  00:16:38,188 - Class count calls = 1
+INFO  00:16:38,188 - Method count calls = 1

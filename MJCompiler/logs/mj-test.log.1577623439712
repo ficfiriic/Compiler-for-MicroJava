@@ -1,0 +1,112 @@
+INFO  18:53:10,844 - Compiling source file: C:\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  18:53:11,032 - #2 program
+INFO  18:53:11,032 - #21 proba
+INFO  18:53:11,032 - #5 const
+INFO  18:53:11,036 - #21 boolean
+INFO  18:53:11,037 - #21 flag
+INFO  18:53:11,039 - #14 =
+INFO  18:53:11,039 - #22 true
+INFO  18:53:11,039 - #9 ,
+INFO  18:53:11,041 - #21 novi_flag
+INFO  18:53:11,041 - #14 =
+INFO  18:53:11,041 - #22 false
+INFO  18:53:11,041 - #6 ;
+INFO  18:53:11,041 - #3 {
+INFO  18:53:11,042 - #15 void
+INFO  18:53:11,044 - #21 main
+INFO  18:53:11,046 - #7 (
+INFO  18:53:11,048 - #8 )
+INFO  18:53:11,051 - #3 {
+INFO  18:53:11,053 - #21 int
+INFO  18:53:11,055 - #14 =
+INFO  18:53:11,059 - #21 x
+INFO  18:53:11,064 - #6 ;
+INFO  18:53:11,066 - #4 }
+INFO  18:53:11,067 - #4 }
+INFO  18:53:11,070 - Program(
+  ProgName(
+   proba
+  ) [ProgName]
+  DeclListFirst(
+    DeclListNoDecl(
+    ) [DeclListNoDecl]
+    DeclarationDerived1(
+      ConstDeclarationMain(
+        ConstantDeclarations(
+          ConstantDeclaration(
+            Type(
+             boolean
+            ) [Type]
+            ConstantDeclarationHelp(
+             flag
+              BoolConstant(
+                FactBoolConst(
+                 true
+                ) [FactBoolConst]
+              ) [BoolConstant]
+            ) [ConstantDeclarationHelp]
+          ) [ConstantDeclaration]
+          ConstantDeclarationHelp(
+           novi_flag
+            BoolConstant(
+              FactBoolConst(
+               false
+              ) [FactBoolConst]
+            ) [BoolConstant]
+          ) [ConstantDeclarationHelp]
+        ) [ConstantDeclarations]
+      ) [ConstDeclarationMain]
+    ) [DeclarationDerived1]
+  ) [DeclListFirst]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclMain(
+      MethodTypeName(
+        MethodVoidReturnType(
+        ) [MethodVoidReturnType]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        Assignment(
+          DesignatorStatement(
+            Designator(
+             int
+              NoDesignatorHelperList(
+              ) [NoDesignatorHelperList]
+            ) [Designator]
+            DesignatorStatementHelperEqual(
+              Assignop(
+              ) [Assignop]
+              TermExpr(
+                NonMinus(
+                ) [NonMinus]
+                TermMain(
+                  Var(
+                    Designator(
+                     x
+                      NoDesignatorHelperList(
+                      ) [NoDesignatorHelperList]
+                    ) [Designator]
+                  ) [Var]
+                ) [TermMain]
+              ) [TermExpr]
+            ) [DesignatorStatementHelperEqual]
+          ) [DesignatorStatement]
+        ) [Assignment]
+      ) [Statements]
+    ) [MethodDeclMain]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:53:11,071 - ===================================
+INFO  18:53:11,077 - Print count call = 0
+INFO  18:53:11,077 - Var count calls = 0
+INFO  18:53:11,077 - Const count calls = 1
+INFO  18:53:11,077 - Class count calls = 0
+INFO  18:53:11,077 - Method count calls = 1

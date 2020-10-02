@@ -1,0 +1,139 @@
+INFO  22:11:31,755 - Compiling source file: C:\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  22:11:32,875 - #2 program
+INFO  22:11:32,875 - #21 P
+INFO  22:11:32,876 - #5 const
+INFO  22:11:32,893 - #21 char
+INFO  22:11:32,894 - #21 c
+INFO  22:11:32,903 - #14 =
+INFO  22:11:32,903 - #23 c
+INFO  22:11:32,903 - #6 ;
+INFO  22:11:32,904 - #5 const
+INFO  22:11:32,905 - #21 char
+INFO  22:11:32,905 - #21 slovo
+INFO  22:11:32,905 - #14 =
+INFO  22:11:32,905 - #23 b
+INFO  22:11:32,905 - #9 ,
+INFO  22:11:32,905 - #21 slovoB
+INFO  22:11:32,906 - #14 =
+INFO  22:11:32,906 - #23 b
+INFO  22:11:32,906 - #9 ,
+INFO  22:11:32,907 - #21 slovoC
+INFO  22:11:32,907 - #14 =
+INFO  22:11:32,907 - #23 C
+INFO  22:11:32,907 - #6 ;
+INFO  22:11:32,908 - #33 class
+INFO  22:11:32,908 - #21 Tab
+INFO  22:11:32,908 - #3 {
+INFO  22:11:32,969 - #4 }
+INFO  22:11:33,020 - #3 {
+INFO  22:11:33,063 - #21 int
+INFO  22:11:33,085 - #21 main
+INFO  22:11:33,088 - #7 (
+INFO  22:11:33,101 - #8 )
+INFO  22:11:33,113 - #3 {
+INFO  22:11:33,113 - #4 }
+INFO  22:11:33,125 - #4 }
+INFO  22:11:33,128 - Program(
+  ProgName(
+   P
+  ) [ProgName]
+  DeclListFirst(
+    DeclListFirst(
+      DeclListFirst(
+        DeclListNoDecl(
+        ) [DeclListNoDecl]
+        DeclarationDerived1(
+          ConstDeclarationMain(
+            ConstantDeclaration(
+              Type(
+               char
+              ) [Type]
+              ConstantDeclarationHelp(
+               c
+                CharConstant(
+                  FactCharConstDerived1(
+                   c
+                  ) [FactCharConstDerived1]
+                ) [CharConstant]
+              ) [ConstantDeclarationHelp]
+            ) [ConstantDeclaration]
+          ) [ConstDeclarationMain]
+        ) [DeclarationDerived1]
+      ) [DeclListFirst]
+      DeclarationDerived1(
+        ConstDeclarationMain(
+          ConstantDeclarations(
+            ConstantDeclarations(
+              ConstantDeclaration(
+                Type(
+                 char
+                ) [Type]
+                ConstantDeclarationHelp(
+                 slovo
+                  CharConstant(
+                    FactCharConstDerived1(
+                     b
+                    ) [FactCharConstDerived1]
+                  ) [CharConstant]
+                ) [ConstantDeclarationHelp]
+              ) [ConstantDeclaration]
+              ConstantDeclarationHelp(
+               slovoB
+                CharConstant(
+                  FactCharConstDerived1(
+                   b
+                  ) [FactCharConstDerived1]
+                ) [CharConstant]
+              ) [ConstantDeclarationHelp]
+            ) [ConstantDeclarations]
+            ConstantDeclarationHelp(
+             slovoC
+              CharConstant(
+                FactCharConstDerived1(
+                 C
+                ) [FactCharConstDerived1]
+              ) [CharConstant]
+            ) [ConstantDeclarationHelp]
+          ) [ConstantDeclarations]
+        ) [ConstDeclarationMain]
+      ) [DeclarationDerived1]
+    ) [DeclListFirst]
+    DeclarationDerived4(
+      ClassDecl(
+       Tab
+        NoExtendingClassTypes(
+        ) [NoExtendingClassTypes]
+        NoVarDecl(
+        ) [NoVarDecl]
+        ClassWithOutMethodDecl(
+        ) [ClassWithOutMethodDecl]
+      ) [ClassDecl]
+    ) [DeclarationDerived4]
+  ) [DeclListFirst]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclMain(
+      MethodTypeName(
+        MethodReturnTypeMain(
+          Type(
+           int
+          ) [Type]
+        ) [MethodReturnTypeMain]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclMain]
+  ) [MethodDeclarations]
+) [Program]
+INFO  22:11:33,129 - ===================================
+INFO  22:11:33,133 - Print count call = 0
+INFO  22:11:33,133 - Var count calls = 0
+INFO  22:11:33,133 - Const count calls = 2
+INFO  22:11:33,133 - Class count calls = 1
+INFO  22:11:33,133 - Method count calls = 1

@@ -1,0 +1,73 @@
+INFO  18:24:54,363 - Compiling source file: C:\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  18:24:54,534 - #2 program
+INFO  18:24:54,535 - #21 p
+INFO  18:24:54,535 - #5 const
+INFO  18:24:54,538 - #21 int
+INFO  18:24:54,538 - #21 tanja
+INFO  18:24:54,539 - #14 =
+INFO  18:24:54,539 - #20 3
+INFO  18:24:54,539 - #6 ;
+INFO  18:24:54,541 - #3 {
+INFO  18:24:54,542 - #15 void
+INFO  18:24:54,544 - #21 main
+INFO  18:24:54,546 - #7 (
+INFO  18:24:54,548 - #8 )
+INFO  18:24:54,549 - #3 {
+INFO  18:24:54,551 - #12 return
+INFO  18:24:54,553 - #6 ;
+INFO  18:24:54,553 - #4 }
+INFO  18:24:54,555 - #4 }
+INFO  18:24:54,583 - Program(
+  ProgName(
+   p
+  ) [ProgName]
+  DeclListFirst(
+    DeclListNoDecl(
+    ) [DeclListNoDecl]
+    DeclarationDerived1(
+      ConstDeclarationMain(
+        ConstantDeclaration(
+          Type(
+           int
+          ) [Type]
+          ConstantDeclarationHelp(
+           tanja
+            NumConstant(
+              FactNumConst(
+               3
+              ) [FactNumConst]
+            ) [NumConstant]
+          ) [ConstantDeclarationHelp]
+        ) [ConstantDeclaration]
+      ) [ConstDeclarationMain]
+    ) [DeclarationDerived1]
+  ) [DeclListFirst]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclMain(
+      MethodTypeName(
+        MethodVoidReturnType(
+        ) [MethodVoidReturnType]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        ReturnNoExpr(
+        ) [ReturnNoExpr]
+      ) [Statements]
+    ) [MethodDeclMain]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:24:54,584 - ===================================
+INFO  18:24:54,592 - Deklarisana konstanta tanja na liniji 4
+INFO  18:24:54,593 - Obradjuje se funkcija main na liniji 6
+INFO  18:24:54,594 -  Print count calls = 0
+INFO  18:24:54,594 -  Deklarisanih promenljivih ima = 0
+INFO  18:24:54,594 - ===================================
+INFO  18:24:54,623 - Parsiranje uspesno zavrseno!

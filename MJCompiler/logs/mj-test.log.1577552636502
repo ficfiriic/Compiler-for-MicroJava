@@ -1,0 +1,84 @@
+INFO  18:00:56,374 - Compiling source file: C:\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  18:00:56,473 - #2 program
+INFO  18:00:56,473 - #21 proba
+INFO  18:00:56,473 - #21 int
+INFO  18:00:56,475 - #21 h
+INFO  18:00:56,476 - #6 ;
+INFO  18:00:56,477 - #21 int
+INFO  18:00:56,478 - #21 x
+INFO  18:00:56,478 - #3 {
+ERROR 18:00:56,478 - 
+Sintaksna greska na liniji 3
+INFO  18:00:56,478 - #4 }
+INFO  18:00:56,478 - #9 ,
+INFO  18:00:56,479 - #21 y
+INFO  18:00:56,480 - #6 ;
+INFO  18:00:56,480 - #3 {
+INFO  18:00:56,480 - #15 void
+INFO  18:00:56,480 - #21 main
+ERROR 18:00:56,481 - Uspesan oporavak od greske pri definisanju promenljivih na liniji 3
+INFO  18:00:56,484 - #7 (
+INFO  18:00:56,485 - #8 )
+INFO  18:00:56,487 - #3 {
+INFO  18:00:56,488 - #21 int
+INFO  18:00:56,489 - #14 =
+INFO  18:00:56,491 - #6 ;
+ERROR 18:00:56,491 - 
+Sintaksna greska na liniji 6
+INFO  18:00:56,491 - #4 }
+INFO  18:00:56,491 - #4 }
+ERROR 18:00:56,492 - Uspesan oporavak od greske pri dodeli vrednosti na liniji 6
+INFO  18:00:56,495 - Program(
+  ProgName(
+   proba
+  ) [ProgName]
+  DeclListFirst(
+    DeclListFirst(
+      DeclListNoDecl(
+      ) [DeclListNoDecl]
+      DeclarationDerived2(
+        VarDeclMain(
+          VariableDeclaration(
+            Type(
+             int
+            ) [Type]
+            VarDeclHelperDerived1(
+             h
+            ) [VarDeclHelperDerived1]
+          ) [VariableDeclaration]
+        ) [VarDeclMain]
+      ) [DeclarationDerived2]
+    ) [DeclListFirst]
+    DeclarationDerived2(
+      ErrAssignmentVar(
+      ) [ErrAssignmentVar]
+    ) [DeclarationDerived2]
+  ) [DeclListFirst]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclMain(
+      MethodTypeName(
+        MethodVoidReturnType(
+        ) [MethodVoidReturnType]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        ErrAssignment(
+        ) [ErrAssignment]
+      ) [Statements]
+    ) [MethodDeclMain]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:00:56,495 - ===================================
+INFO  18:00:56,498 - Print count call = 0
+INFO  18:00:56,499 - Var count calls = 1
+INFO  18:00:56,499 - Const count calls = 0
+INFO  18:00:56,499 - Class count calls = 0
+INFO  18:00:56,499 - Method count calls = 1

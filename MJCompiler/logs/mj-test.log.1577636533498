@@ -1,0 +1,79 @@
+INFO  17:19:44,730 - Compiling source file: C:\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  17:19:44,845 - #2 program
+INFO  17:19:44,845 - #21 proba
+INFO  17:19:44,845 - #21 char
+INFO  17:19:44,848 - #21 x
+INFO  17:19:44,849 - #6 ;
+INFO  17:19:44,851 - #21 int
+INFO  17:19:44,852 - #21 y
+INFO  17:19:44,852 - #6 ;
+INFO  17:19:44,852 - #21 bool
+INFO  17:19:44,852 - #21 z
+INFO  17:19:44,853 - #6 ;
+INFO  17:19:44,853 - #3 {
+INFO  17:19:44,853 - #4 }
+INFO  17:19:44,874 - Program(
+  ProgName(
+   proba
+  ) [ProgName]
+  DeclListFirst(
+    DeclListFirst(
+      DeclListFirst(
+        DeclListNoDecl(
+        ) [DeclListNoDecl]
+        DeclarationDerived2(
+          VarDeclMain(
+            VariableDeclaration(
+              Type(
+               char
+              ) [Type]
+              VarDeclHelperDerived1(
+                VarDeclName(
+                 x
+                ) [VarDeclName]
+              ) [VarDeclHelperDerived1]
+            ) [VariableDeclaration]
+          ) [VarDeclMain]
+        ) [DeclarationDerived2]
+      ) [DeclListFirst]
+      DeclarationDerived2(
+        VarDeclMain(
+          VariableDeclaration(
+            Type(
+             int
+            ) [Type]
+            VarDeclHelperDerived1(
+              VarDeclName(
+               y
+              ) [VarDeclName]
+            ) [VarDeclHelperDerived1]
+          ) [VariableDeclaration]
+        ) [VarDeclMain]
+      ) [DeclarationDerived2]
+    ) [DeclListFirst]
+    DeclarationDerived2(
+      VarDeclMain(
+        VariableDeclaration(
+          Type(
+           bool
+          ) [Type]
+          VarDeclHelperDerived1(
+            VarDeclName(
+             z
+            ) [VarDeclName]
+          ) [VarDeclHelperDerived1]
+        ) [VariableDeclaration]
+      ) [VarDeclMain]
+    ) [DeclarationDerived2]
+  ) [DeclListFirst]
+  NoMethodDecl(
+  ) [NoMethodDecl]
+) [Program]
+INFO  17:19:44,904 - ===================================
+INFO  17:19:44,907 - Deklarisana promenljiva x na liniji 3
+INFO  17:19:44,908 - Deklarisana promenljiva y na liniji 4
+INFO  17:19:44,908 - Deklarisana promenljiva z na liniji 5
+INFO  17:19:44,908 -  Print count calls = 0
+INFO  17:19:44,908 -  Deklarisanih promenljivih ima = 3
+INFO  17:19:44,908 - ===================================
+INFO  17:19:44,910 - Parsiranje uspesno zavrseno!

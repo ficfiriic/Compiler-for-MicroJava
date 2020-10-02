@@ -1,0 +1,46 @@
+INFO  23:02:02,038 - Compiling source file: C:\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  23:02:02,179 - #2 program
+INFO  23:02:02,179 - #21 P
+INFO  23:02:02,180 - #21 int
+INFO  23:02:02,183 - #21 x
+INFO  23:02:02,185 - #41 [
+INFO  23:02:02,185 - #42 ]
+INFO  23:02:02,185 - #9 ,
+INFO  23:02:02,186 - #21 y
+INFO  23:02:02,186 - #6 ;
+INFO  23:02:02,187 - #3 {
+INFO  23:02:02,187 - #4 }
+INFO  23:02:02,191 - Program(
+  ProgName(
+   P
+  ) [ProgName]
+  DeclListFirst(
+    DeclListNoDecl(
+    ) [DeclListNoDecl]
+    DeclarationDerived2(
+      VarDeclMain(
+        VariablesDeclarations(
+          VariableDeclaration(
+            Type(
+             int
+            ) [Type]
+            VarDeclHelperDerived2(
+             x
+            ) [VarDeclHelperDerived2]
+          ) [VariableDeclaration]
+          VarDeclHelperDerived1(
+           y
+          ) [VarDeclHelperDerived1]
+        ) [VariablesDeclarations]
+      ) [VarDeclMain]
+    ) [DeclarationDerived2]
+  ) [DeclListFirst]
+  NoMethodDecl(
+  ) [NoMethodDecl]
+) [Program]
+INFO  23:02:02,192 - ===================================
+INFO  23:02:02,196 - Print count call = 0
+INFO  23:02:02,196 - Var count calls = 1
+INFO  23:02:02,196 - Const count calls = 0
+INFO  23:02:02,196 - Class count calls = 0
+INFO  23:02:02,197 - Method count calls = 0

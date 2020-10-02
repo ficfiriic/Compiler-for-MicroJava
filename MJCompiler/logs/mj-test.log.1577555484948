@@ -1,0 +1,95 @@
+INFO  18:47:18,639 - Compiling source file: C:\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  18:47:18,750 - #2 program
+INFO  18:47:18,751 - #21 proba
+INFO  18:47:18,751 - #5 const
+INFO  18:47:18,753 - #21 boolean
+INFO  18:47:18,753 - #21 flag
+INFO  18:47:18,754 - #14 =
+INFO  18:47:18,755 - #22 true
+INFO  18:47:18,755 - #3 {
+INFO  18:47:18,757 - #15 void
+INFO  18:47:18,758 - #21 main
+INFO  18:47:18,759 - #7 (
+INFO  18:47:18,761 - #8 )
+INFO  18:47:18,762 - #3 {
+INFO  18:47:18,763 - #21 int
+INFO  18:47:18,765 - #14 =
+INFO  18:47:18,785 - #21 x
+INFO  18:47:18,788 - #6 ;
+INFO  18:47:18,804 - #4 }
+INFO  18:47:18,804 - #4 }
+INFO  18:47:18,809 - Program(
+  ProgName(
+   proba
+  ) [ProgName]
+  DeclListFirst(
+    DeclListNoDecl(
+    ) [DeclListNoDecl]
+    DeclarationDerived1(
+      ConstantDeclaration(
+        Type(
+         boolean
+        ) [Type]
+        ConstantDeclarationHelp(
+         flag
+          BoolConstant(
+            FactBoolConst(
+             true
+            ) [FactBoolConst]
+          ) [BoolConstant]
+        ) [ConstantDeclarationHelp]
+      ) [ConstantDeclaration]
+    ) [DeclarationDerived1]
+  ) [DeclListFirst]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclMain(
+      MethodTypeName(
+        MethodVoidReturnType(
+        ) [MethodVoidReturnType]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        Assignment(
+          DesignatorStatement(
+            Designator(
+             int
+              NoDesignatorHelperList(
+              ) [NoDesignatorHelperList]
+            ) [Designator]
+            DesignatorStatementHelperEqual(
+              Assignop(
+              ) [Assignop]
+              TermExpr(
+                NonMinus(
+                ) [NonMinus]
+                TermMain(
+                  Var(
+                    Designator(
+                     x
+                      NoDesignatorHelperList(
+                      ) [NoDesignatorHelperList]
+                    ) [Designator]
+                  ) [Var]
+                ) [TermMain]
+              ) [TermExpr]
+            ) [DesignatorStatementHelperEqual]
+          ) [DesignatorStatement]
+        ) [Assignment]
+      ) [Statements]
+    ) [MethodDeclMain]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:47:18,810 - ===================================
+INFO  18:47:18,814 - Print count call = 0
+INFO  18:47:18,814 - Var count calls = 0
+INFO  18:47:18,814 - Const count calls = 0
+INFO  18:47:18,814 - Class count calls = 0
+INFO  18:47:18,814 - Method count calls = 1

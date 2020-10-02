@@ -1,0 +1,41 @@
+INFO  19:03:16,630 - Compiling source file: C:\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  19:03:16,800 - #2 program
+INFO  19:03:16,800 - #21 p
+INFO  19:03:16,800 - #3 {
+INFO  19:03:16,803 - #15 void
+INFO  19:03:16,804 - #21 main
+INFO  19:03:16,806 - #7 (
+INFO  19:03:16,807 - #8 )
+INFO  19:03:16,809 - #3 {
+INFO  19:03:16,811 - #4 }
+INFO  19:03:16,812 - #4 }
+INFO  19:03:16,840 - Program(
+  ProgName(
+   p
+  ) [ProgName]
+  DeclListNoDecl(
+  ) [DeclListNoDecl]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclMain(
+      MethodTypeName(
+        MethodVoidReturnType(
+        ) [MethodVoidReturnType]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclMain]
+  ) [MethodDeclarations]
+) [Program]
+INFO  19:03:16,841 - ===================================
+INFO  19:03:16,849 - Obradjuje se funkcija main na liniji 3
+INFO  19:03:16,849 -  Print count calls = 0
+INFO  19:03:16,849 -  Deklarisanih promenljivih ima = 0
+INFO  19:03:16,849 - ===================================
+INFO  19:03:16,866 - Parsiranje uspesno zavrseno!

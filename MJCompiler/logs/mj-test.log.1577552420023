@@ -1,0 +1,68 @@
+INFO  17:58:24,024 - Compiling source file: C:\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  17:58:24,216 - #2 program
+INFO  17:58:24,216 - #21 proba
+INFO  17:58:24,217 - #21 int
+INFO  17:58:24,220 - #21 h
+INFO  17:58:24,223 - #6 ;
+INFO  17:58:24,223 - #3 {
+INFO  17:58:24,224 - #15 void
+INFO  17:58:24,226 - #21 main
+INFO  17:58:24,228 - #7 (
+INFO  17:58:24,230 - #8 )
+INFO  17:58:24,232 - #3 {
+INFO  17:58:24,234 - #21 int
+INFO  17:58:24,236 - #14 =
+INFO  17:58:24,240 - #6 ;
+ERROR 17:58:24,241 - 
+Sintaksna greska na liniji 5
+INFO  17:58:24,241 - #4 }
+INFO  17:58:24,241 - #4 }
+ERROR 17:58:24,242 - Uspesan oporavak od greske pri dodeli vrednosti na liniji 5
+INFO  17:58:24,247 - Program(
+  ProgName(
+   proba
+  ) [ProgName]
+  DeclListFirst(
+    DeclListNoDecl(
+    ) [DeclListNoDecl]
+    DeclarationDerived2(
+      VarDeclMain(
+        VariableDeclaration(
+          Type(
+           int
+          ) [Type]
+          VarDeclHelperDerived1(
+           h
+          ) [VarDeclHelperDerived1]
+        ) [VariableDeclaration]
+      ) [VarDeclMain]
+    ) [DeclarationDerived2]
+  ) [DeclListFirst]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclMain(
+      MethodTypeName(
+        MethodVoidReturnType(
+        ) [MethodVoidReturnType]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        NoStmt(
+        ) [NoStmt]
+        ErrAssignment(
+        ) [ErrAssignment]
+      ) [Statements]
+    ) [MethodDeclMain]
+  ) [MethodDeclarations]
+) [Program]
+INFO  17:58:24,248 - ===================================
+INFO  17:58:24,253 - Print count call = 0
+INFO  17:58:24,253 - Var count calls = 1
+INFO  17:58:24,253 - Const count calls = 0
+INFO  17:58:24,253 - Class count calls = 0
+INFO  17:58:24,253 - Method count calls = 1

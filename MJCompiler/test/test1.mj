@@ -1,0 +1,89 @@
+
+program p 
+
+	
+	const int tanja = 350, nikola = 13;
+	const char n='a', z='b';
+	const bool flag=true, flagB=false;
+	int x;
+	int m;
+	
+	char c;
+	
+	char v[];
+	char k;
+	int y[];
+	{
+	int fja(){print('t', 5); return 14;}
+	
+	
+	void main(){
+	
+	y = new int[26];
+	x=3;
+	v = new char[13];
+	y[1+x%(2+2)%2]=-4;
+	
+	//PRVI PRINT
+	print(y[1+x%(2+2)%2]);
+	y[7]=6;
+	y[3]=8;
+	y[8]=11;
+	v[y[y[3]]]='t';
+	
+	//DRUGI PRINT
+	print(v[y[y[3]]]);
+	y[1]=4;
+	y[y[1]]=9+y[y[3]];
+	
+	//TRECI PRINT
+	print(y[4]);
+	y[17]=1;
+	v[y[17]]=v[y[y[3]]];
+	
+	//CETVRTI PRINT
+	print(v[1]);
+	//y[y[7]]=9+y[3];
+	m= 9+y[y[3]];
+	print(m);
+	
+	//PETI PRINT
+	y[y[3]]--;
+	print(y[8]);
+	
+	//SESTI PRINT
+	v[5] ='a';
+	y[10+(x-12)/3]=7;
+	v[10]='c';
+	print(v[5]);
+	
+	//SEDMI OSMI DEVETI
+	y[20]=-x+50;
+	print(y[20]);
+	print(v[10]);
+	c=v[10];
+	print(c);
+	
+	//DESETI
+	y[9]=3/((1-4)+5)*fja();
+	print(y[9]);
+	
+	//DO KRAJA
+	x++;
+	print(x);
+	x--;
+	print(x);
+	x--;
+	print(x);
+	x++;
+	print(x);
+	
+	print(flag);
+	print(flagB);
+	print('e');
+	print('n');
+	print('d');
+	return;
+	}
+
+}

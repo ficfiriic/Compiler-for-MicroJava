@@ -1,0 +1,190 @@
+INFO  18:38:50,389 - Compiling source file: C:\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  18:38:50,546 - #2 program
+INFO  18:38:50,547 - #21 p
+INFO  18:38:50,547 - #5 const
+INFO  18:38:50,550 - #21 int
+INFO  18:38:50,550 - #21 tanja
+INFO  18:38:50,551 - #14 =
+INFO  18:38:50,552 - #20 350
+INFO  18:38:50,552 - #9 ,
+INFO  18:38:50,554 - #21 nikola
+INFO  18:38:50,554 - #14 =
+INFO  18:38:50,554 - #20 13
+INFO  18:38:50,554 - #6 ;
+INFO  18:38:50,555 - #5 const
+INFO  18:38:50,555 - #21 char
+INFO  18:38:50,556 - #21 n
+INFO  18:38:50,556 - #14 =
+INFO  18:38:50,556 - #23 a
+INFO  18:38:50,556 - #9 ,
+INFO  18:38:50,558 - #21 z
+INFO  18:38:50,558 - #14 =
+INFO  18:38:50,559 - #23 b
+INFO  18:38:50,559 - #6 ;
+INFO  18:38:50,559 - #5 const
+INFO  18:38:50,559 - #21 bool
+INFO  18:38:50,560 - #21 flag
+INFO  18:38:50,560 - #14 =
+INFO  18:38:50,560 - #22 true
+INFO  18:38:50,560 - #9 ,
+INFO  18:38:50,562 - #21 flagB
+INFO  18:38:50,562 - #14 =
+INFO  18:38:50,562 - #22 false
+INFO  18:38:50,562 - #6 ;
+INFO  18:38:50,563 - #3 {
+INFO  18:38:50,563 - #15 void
+INFO  18:38:50,565 - #21 main
+INFO  18:38:50,566 - #7 (
+INFO  18:38:50,568 - #8 )
+INFO  18:38:50,569 - #3 {
+INFO  18:38:50,571 - #10 print
+INFO  18:38:50,572 - #7 (
+INFO  18:38:50,573 - #20 3
+INFO  18:38:50,575 - #8 )
+INFO  18:38:50,576 - #6 ;
+INFO  18:38:50,576 - #12 return
+INFO  18:38:50,577 - #6 ;
+INFO  18:38:50,577 - #4 }
+INFO  18:38:50,579 - #4 }
+INFO  18:38:50,608 - Program(
+  ProgName(
+   p
+  ) [ProgName]
+  DeclListFirst(
+    DeclListFirst(
+      DeclListFirst(
+        DeclListNoDecl(
+        ) [DeclListNoDecl]
+        DeclarationDerived1(
+          ConstDeclarationMain(
+            ConstantDeclarations(
+              ConstantDeclaration(
+                Type(
+                 int
+                ) [Type]
+                ConstantDeclarationHelp(
+                 tanja
+                  NumConstant(
+                    FactNumConst(
+                     350
+                    ) [FactNumConst]
+                  ) [NumConstant]
+                ) [ConstantDeclarationHelp]
+              ) [ConstantDeclaration]
+              ConstantDeclarationHelp(
+               nikola
+                NumConstant(
+                  FactNumConst(
+                   13
+                  ) [FactNumConst]
+                ) [NumConstant]
+              ) [ConstantDeclarationHelp]
+            ) [ConstantDeclarations]
+          ) [ConstDeclarationMain]
+        ) [DeclarationDerived1]
+      ) [DeclListFirst]
+      DeclarationDerived1(
+        ConstDeclarationMain(
+          ConstantDeclarations(
+            ConstantDeclaration(
+              Type(
+               char
+              ) [Type]
+              ConstantDeclarationHelp(
+               n
+                CharConstant(
+                  FactCharConst(
+                   a
+                  ) [FactCharConst]
+                ) [CharConstant]
+              ) [ConstantDeclarationHelp]
+            ) [ConstantDeclaration]
+            ConstantDeclarationHelp(
+             z
+              CharConstant(
+                FactCharConst(
+                 b
+                ) [FactCharConst]
+              ) [CharConstant]
+            ) [ConstantDeclarationHelp]
+          ) [ConstantDeclarations]
+        ) [ConstDeclarationMain]
+      ) [DeclarationDerived1]
+    ) [DeclListFirst]
+    DeclarationDerived1(
+      ConstDeclarationMain(
+        ConstantDeclarations(
+          ConstantDeclaration(
+            Type(
+             bool
+            ) [Type]
+            ConstantDeclarationHelp(
+             flag
+              BoolConstant(
+                FactBoolConst(
+                 true
+                ) [FactBoolConst]
+              ) [BoolConstant]
+            ) [ConstantDeclarationHelp]
+          ) [ConstantDeclaration]
+          ConstantDeclarationHelp(
+           flagB
+            BoolConstant(
+              FactBoolConst(
+               false
+              ) [FactBoolConst]
+            ) [BoolConstant]
+          ) [ConstantDeclarationHelp]
+        ) [ConstantDeclarations]
+      ) [ConstDeclarationMain]
+    ) [DeclarationDerived1]
+  ) [DeclListFirst]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclMain(
+      MethodTypeName(
+        MethodVoidReturnType(
+        ) [MethodVoidReturnType]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        Statements(
+          NoStmt(
+          ) [NoStmt]
+          PrintStmtWithOutNumConst(
+            TermExpr(
+              NonMinus(
+              ) [NonMinus]
+              TermMain(
+                NumConst(
+                  FactNumConst(
+                   3
+                  ) [FactNumConst]
+                ) [NumConst]
+              ) [TermMain]
+            ) [TermExpr]
+          ) [PrintStmtWithOutNumConst]
+        ) [Statements]
+        ReturnNoExpr(
+        ) [ReturnNoExpr]
+      ) [Statements]
+    ) [MethodDeclMain]
+  ) [MethodDeclarations]
+) [Program]
+INFO  18:38:50,612 - ===================================
+INFO  18:38:50,644 - Deklarisana konstanta tanja na liniji 4
+INFO  18:38:50,647 - Deklarisana konstanta nikola na liniji 4
+INFO  18:38:50,647 - Deklarisana konstanta n na liniji 5
+INFO  18:38:50,647 - Deklarisana konstanta z na liniji 5
+INFO  18:38:50,647 - Deklarisana konstanta flag na liniji 6
+INFO  18:38:50,648 - Deklarisana konstanta flagB na liniji 6
+INFO  18:38:50,648 - Obradjuje se funkcija main na liniji 8
+INFO  18:38:50,649 -  Print count calls = 0
+INFO  18:38:50,649 -  Deklarisanih promenljivih ima = 0
+INFO  18:38:50,649 - ===================================
+INFO  18:38:50,671 - Parsiranje uspesno zavrseno!

@@ -1,0 +1,117 @@
+INFO  17:33:08,137 - Compiling source file: C:\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  17:33:08,265 - #2 program
+INFO  17:33:08,266 - #21 proba
+INFO  17:33:08,266 - #21 char
+INFO  17:33:08,269 - #21 x
+INFO  17:33:08,271 - #6 ;
+INFO  17:33:08,272 - #5 const
+INFO  17:33:08,273 - #21 int
+INFO  17:33:08,273 - #21 tanja
+INFO  17:33:08,274 - #14 =
+INFO  17:33:08,274 - #20 15
+INFO  17:33:08,274 - #6 ;
+INFO  17:33:08,276 - #21 int
+INFO  17:33:08,277 - #21 y
+INFO  17:33:08,277 - #41 [
+INFO  17:33:08,277 - #42 ]
+INFO  17:33:08,277 - #9 ,
+INFO  17:33:08,278 - #21 k
+INFO  17:33:08,278 - #6 ;
+INFO  17:33:08,278 - #21 bool
+INFO  17:33:08,279 - #21 z
+INFO  17:33:08,279 - #6 ;
+INFO  17:33:08,280 - #3 {
+INFO  17:33:08,280 - #4 }
+INFO  17:33:08,311 - Program(
+  ProgName(
+   proba
+  ) [ProgName]
+  DeclListFirst(
+    DeclListFirst(
+      DeclListFirst(
+        DeclListFirst(
+          DeclListNoDecl(
+          ) [DeclListNoDecl]
+          DeclarationDerived2(
+            VarDeclMain(
+              VariableDeclaration(
+                Type(
+                 char
+                ) [Type]
+                VarDeclHelperDerived1(
+                  VarDeclName(
+                   x
+                  ) [VarDeclName]
+                ) [VarDeclHelperDerived1]
+              ) [VariableDeclaration]
+            ) [VarDeclMain]
+          ) [DeclarationDerived2]
+        ) [DeclListFirst]
+        DeclarationDerived1(
+          ConstDeclarationMain(
+            ConstantDeclaration(
+              Type(
+               int
+              ) [Type]
+              ConstantDeclarationHelp(
+               tanja
+                NumConstant(
+                  FactNumConst(
+                   15
+                  ) [FactNumConst]
+                ) [NumConstant]
+              ) [ConstantDeclarationHelp]
+            ) [ConstantDeclaration]
+          ) [ConstDeclarationMain]
+        ) [DeclarationDerived1]
+      ) [DeclListFirst]
+      DeclarationDerived2(
+        VarDeclMain(
+          VariablesDeclarations(
+            VariableDeclaration(
+              Type(
+               int
+              ) [Type]
+              VarDeclHelperDerived2(
+                VarDeclName(
+                 y
+                ) [VarDeclName]
+              ) [VarDeclHelperDerived2]
+            ) [VariableDeclaration]
+            VarDeclHelperDerived1(
+              VarDeclName(
+               k
+              ) [VarDeclName]
+            ) [VarDeclHelperDerived1]
+          ) [VariablesDeclarations]
+        ) [VarDeclMain]
+      ) [DeclarationDerived2]
+    ) [DeclListFirst]
+    DeclarationDerived2(
+      VarDeclMain(
+        VariableDeclaration(
+          Type(
+           bool
+          ) [Type]
+          VarDeclHelperDerived1(
+            VarDeclName(
+             z
+            ) [VarDeclName]
+          ) [VarDeclHelperDerived1]
+        ) [VariableDeclaration]
+      ) [VarDeclMain]
+    ) [DeclarationDerived2]
+  ) [DeclListFirst]
+  NoMethodDecl(
+  ) [NoMethodDecl]
+) [Program]
+INFO  17:33:08,313 - ===================================
+INFO  17:33:08,320 - Deklarisana promenljiva x na liniji 3
+INFO  17:33:08,321 - Deklarisana konstanta tanja na liniji 4
+INFO  17:33:08,321 - Deklarisana promenljiva y na liniji 5
+INFO  17:33:08,322 - Deklarisana promenljiva k na liniji 5
+INFO  17:33:08,323 - Deklarisana promenljiva z na liniji 6
+INFO  17:33:08,325 -  Print count calls = 0
+INFO  17:33:08,327 -  Deklarisanih promenljivih ima = 4
+INFO  17:33:08,328 - ===================================
+INFO  17:33:08,332 - Parsiranje uspesno zavrseno!

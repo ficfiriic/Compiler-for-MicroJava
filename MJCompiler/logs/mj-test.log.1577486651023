@@ -1,0 +1,78 @@
+INFO  23:43:10,879 - Compiling source file: C:\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  23:43:10,986 - #2 program
+INFO  23:43:10,986 - #21 prog
+INFO  23:43:10,986 - #3 {
+INFO  23:43:10,988 - #21 int
+INFO  23:43:10,989 - #21 main
+INFO  23:43:10,991 - #7 (
+INFO  23:43:10,992 - #8 )
+INFO  23:43:10,993 - #21 int
+INFO  23:43:10,994 - #21 x
+INFO  23:43:10,994 - #9 ,
+INFO  23:43:10,995 - #21 y
+INFO  23:43:10,995 - #6 ;
+INFO  23:43:10,995 - #3 {
+INFO  23:43:10,996 - #37 break
+INFO  23:43:10,997 - #6 ;
+INFO  23:43:10,997 - #36 continue
+INFO  23:43:10,999 - #6 ;
+INFO  23:43:10,999 - #4 }
+INFO  23:43:11,001 - #4 }
+INFO  23:43:11,003 - Program(
+  ProgName(
+   prog
+  ) [ProgName]
+  DeclListNoDecl(
+  ) [DeclListNoDecl]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclMain(
+      MethodTypeName(
+        MethodReturnTypeMain(
+          Type(
+           int
+          ) [Type]
+        ) [MethodReturnTypeMain]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      VarDeclarations(
+        NoVarDecl(
+        ) [NoVarDecl]
+        VarDeclMain(
+          VariablesDeclarations(
+            VariableDeclaration(
+              Type(
+               int
+              ) [Type]
+              VarDeclHelperDerived1(
+               x
+              ) [VarDeclHelperDerived1]
+            ) [VariableDeclaration]
+            VarDeclHelperDerived1(
+             y
+            ) [VarDeclHelperDerived1]
+          ) [VariablesDeclarations]
+        ) [VarDeclMain]
+      ) [VarDeclarations]
+      Statements(
+        Statements(
+          NoStmt(
+          ) [NoStmt]
+          BreakStmt(
+          ) [BreakStmt]
+        ) [Statements]
+        ContinueStmt(
+        ) [ContinueStmt]
+      ) [Statements]
+    ) [MethodDeclMain]
+  ) [MethodDeclarations]
+) [Program]
+INFO  23:43:11,004 - ===================================
+INFO  23:43:11,007 - Print count call = 0
+INFO  23:43:11,007 - Var count calls = 1
+INFO  23:43:11,007 - Const count calls = 0
+INFO  23:43:11,008 - Class count calls = 0
+INFO  23:43:11,008 - Method count calls = 1

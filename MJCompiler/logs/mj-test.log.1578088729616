@@ -1,0 +1,271 @@
+INFO  22:58:19,291 - Compiling source file: C:\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  22:58:19,411 - #2 program
+INFO  22:58:19,411 - #21 proba
+INFO  22:58:19,411 - #21 int
+INFO  22:58:19,413 - #21 x
+INFO  22:58:19,415 - #9 ,
+INFO  22:58:19,416 - #21 y
+INFO  22:58:19,416 - #9 ,
+INFO  22:58:19,417 - #21 z
+INFO  22:58:19,417 - #41 [
+INFO  22:58:19,417 - #42 ]
+INFO  22:58:19,417 - #6 ;
+INFO  22:58:19,417 - #21 char
+INFO  22:58:19,418 - #21 a
+INFO  22:58:19,418 - #9 ,
+INFO  22:58:19,418 - #21 b
+INFO  22:58:19,418 - #9 ,
+INFO  22:58:19,419 - #21 c
+INFO  22:58:19,419 - #41 [
+INFO  22:58:19,419 - #42 ]
+INFO  22:58:19,419 - #6 ;
+INFO  22:58:19,419 - #21 bool
+INFO  22:58:19,419 - #21 t
+INFO  22:58:19,420 - #9 ,
+INFO  22:58:19,420 - #21 f
+INFO  22:58:19,420 - #41 [
+INFO  22:58:19,420 - #42 ]
+INFO  22:58:19,421 - #6 ;
+INFO  22:58:19,421 - #5 const
+INFO  22:58:19,421 - #21 int
+INFO  22:58:19,421 - #21 konInt
+INFO  22:58:19,421 - #14 =
+INFO  22:58:19,421 - #20 15
+INFO  22:58:19,421 - #6 ;
+INFO  22:58:19,423 - #5 const
+INFO  22:58:19,424 - #21 char
+INFO  22:58:19,424 - #21 konChar
+INFO  22:58:19,424 - #14 =
+INFO  22:58:19,425 - #23 a
+INFO  22:58:19,425 - #6 ;
+INFO  22:58:19,426 - #5 const
+INFO  22:58:19,426 - #21 bool
+INFO  22:58:19,426 - #21 konBool
+INFO  22:58:19,426 - #14 =
+INFO  22:58:19,426 - #22 true
+INFO  22:58:19,427 - #6 ;
+INFO  22:58:19,428 - #3 {
+INFO  22:58:19,429 - #15 void
+INFO  22:58:19,430 - #21 main
+INFO  22:58:19,431 - #7 (
+INFO  22:58:19,432 - #8 )
+INFO  22:58:19,433 - #21 int
+INFO  22:58:19,435 - #21 m
+INFO  22:58:19,435 - #6 ;
+INFO  22:58:19,435 - #21 int
+INFO  22:58:19,435 - #21 n
+INFO  22:58:19,435 - #6 ;
+INFO  22:58:19,435 - #3 {
+INFO  22:58:19,436 - #4 }
+INFO  22:58:19,437 - #4 }
+INFO  22:58:19,457 - Program(
+  ProgName(
+   proba
+  ) [ProgName]
+  DeclListFirst(
+    DeclListFirst(
+      DeclListFirst(
+        DeclListFirst(
+          DeclListFirst(
+            DeclListFirst(
+              DeclListNoDecl(
+              ) [DeclListNoDecl]
+              DeclarationDerived2(
+                VarDeclMain(
+                  VariablesDeclarations(
+                    VariablesDeclarations(
+                      VariableDeclaration(
+                        Type(
+                         int
+                        ) [Type]
+                        VarDeclHelperDerived1(
+                          VarDeclName(
+                           x
+                          ) [VarDeclName]
+                        ) [VarDeclHelperDerived1]
+                      ) [VariableDeclaration]
+                      VarDeclHelperDerived1(
+                        VarDeclName(
+                         y
+                        ) [VarDeclName]
+                      ) [VarDeclHelperDerived1]
+                    ) [VariablesDeclarations]
+                    VarDeclHelperDerived2(
+                      VarDeclName(
+                       z
+                      ) [VarDeclName]
+                    ) [VarDeclHelperDerived2]
+                  ) [VariablesDeclarations]
+                ) [VarDeclMain]
+              ) [DeclarationDerived2]
+            ) [DeclListFirst]
+            DeclarationDerived2(
+              VarDeclMain(
+                VariablesDeclarations(
+                  VariablesDeclarations(
+                    VariableDeclaration(
+                      Type(
+                       char
+                      ) [Type]
+                      VarDeclHelperDerived1(
+                        VarDeclName(
+                         a
+                        ) [VarDeclName]
+                      ) [VarDeclHelperDerived1]
+                    ) [VariableDeclaration]
+                    VarDeclHelperDerived1(
+                      VarDeclName(
+                       b
+                      ) [VarDeclName]
+                    ) [VarDeclHelperDerived1]
+                  ) [VariablesDeclarations]
+                  VarDeclHelperDerived2(
+                    VarDeclName(
+                     c
+                    ) [VarDeclName]
+                  ) [VarDeclHelperDerived2]
+                ) [VariablesDeclarations]
+              ) [VarDeclMain]
+            ) [DeclarationDerived2]
+          ) [DeclListFirst]
+          DeclarationDerived2(
+            VarDeclMain(
+              VariablesDeclarations(
+                VariableDeclaration(
+                  Type(
+                   bool
+                  ) [Type]
+                  VarDeclHelperDerived1(
+                    VarDeclName(
+                     t
+                    ) [VarDeclName]
+                  ) [VarDeclHelperDerived1]
+                ) [VariableDeclaration]
+                VarDeclHelperDerived2(
+                  VarDeclName(
+                   f
+                  ) [VarDeclName]
+                ) [VarDeclHelperDerived2]
+              ) [VariablesDeclarations]
+            ) [VarDeclMain]
+          ) [DeclarationDerived2]
+        ) [DeclListFirst]
+        DeclarationDerived1(
+          ConstDeclarationMain(
+            ConstantDeclaration(
+              Type(
+               int
+              ) [Type]
+              ConstantDeclarationHelp(
+               konInt
+                NumConstant(
+                  FactNumConst(
+                   15
+                  ) [FactNumConst]
+                ) [NumConstant]
+              ) [ConstantDeclarationHelp]
+            ) [ConstantDeclaration]
+          ) [ConstDeclarationMain]
+        ) [DeclarationDerived1]
+      ) [DeclListFirst]
+      DeclarationDerived1(
+        ConstDeclarationMain(
+          ConstantDeclaration(
+            Type(
+             char
+            ) [Type]
+            ConstantDeclarationHelp(
+             konChar
+              CharConstant(
+                FactCharConst(
+                 a
+                ) [FactCharConst]
+              ) [CharConstant]
+            ) [ConstantDeclarationHelp]
+          ) [ConstantDeclaration]
+        ) [ConstDeclarationMain]
+      ) [DeclarationDerived1]
+    ) [DeclListFirst]
+    DeclarationDerived1(
+      ConstDeclarationMain(
+        ConstantDeclaration(
+          Type(
+           bool
+          ) [Type]
+          ConstantDeclarationHelp(
+           konBool
+            BoolConstant(
+              FactBoolConst(
+               true
+              ) [FactBoolConst]
+            ) [BoolConstant]
+          ) [ConstantDeclarationHelp]
+        ) [ConstantDeclaration]
+      ) [ConstDeclarationMain]
+    ) [DeclarationDerived1]
+  ) [DeclListFirst]
+  MethodDeclarations(
+    NoMethodDecl(
+    ) [NoMethodDecl]
+    MethodDeclMain(
+      MethodTypeName(
+        MethodVoidReturnType(
+        ) [MethodVoidReturnType]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      VarDeclarations(
+        VarDeclarations(
+          NoVarDecl(
+          ) [NoVarDecl]
+          VarDeclMain(
+            VariableDeclaration(
+              Type(
+               int
+              ) [Type]
+              VarDeclHelperDerived1(
+                VarDeclName(
+                 m
+                ) [VarDeclName]
+              ) [VarDeclHelperDerived1]
+            ) [VariableDeclaration]
+          ) [VarDeclMain]
+        ) [VarDeclarations]
+        VarDeclMain(
+          VariableDeclaration(
+            Type(
+             int
+            ) [Type]
+            VarDeclHelperDerived1(
+              VarDeclName(
+               n
+              ) [VarDeclName]
+            ) [VarDeclHelperDerived1]
+          ) [VariableDeclaration]
+        ) [VarDeclMain]
+      ) [VarDeclarations]
+      NoStmt(
+      ) [NoStmt]
+    ) [MethodDeclMain]
+  ) [MethodDeclarations]
+) [Program]
+INFO  22:58:19,457 - ===================================
+ERROR 22:58:19,462 - Promenljiva x vec postoji u tabeli simbola! 
+ERROR 22:58:19,463 - Promenljiva y vec postoji u tabeli simbola! 
+ERROR 22:58:19,463 - Promenljiva z vec postoji u tabeli simbola! 
+ERROR 22:58:19,463 - Promenljiva a vec postoji u tabeli simbola! 
+ERROR 22:58:19,464 - Promenljiva b vec postoji u tabeli simbola! 
+ERROR 22:58:19,464 - Promenljiva c vec postoji u tabeli simbola! 
+ERROR 22:58:19,464 - Promenljiva t vec postoji u tabeli simbola! 
+ERROR 22:58:19,464 - Promenljiva f vec postoji u tabeli simbola! 
+INFO  22:58:19,464 - Deklarisana konstanta konInt na liniji 5
+INFO  22:58:19,465 - Deklarisana konstanta konChar na liniji 6
+INFO  22:58:19,465 - Deklarisana konstanta konBool na liniji 7
+INFO  22:58:19,465 - Obradjuje se funkcija main na liniji 9
+ERROR 22:58:19,465 - Promenljiva m vec postoji u tabeli simbola! 
+ERROR 22:58:19,466 - Promenljiva n vec postoji u tabeli simbola! 
+INFO  22:58:19,466 -  Print count calls = 0
+INFO  22:58:19,466 -  Deklarisanih promenljivih ima = 0
+INFO  22:58:19,466 - ===================================
+ERROR 22:58:19,467 - Parsiranje NIJE uspesno zavrseno!

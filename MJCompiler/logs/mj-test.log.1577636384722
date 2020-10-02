@@ -1,0 +1,39 @@
+INFO  17:19:15,062 - Compiling source file: C:\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  17:19:15,160 - #2 program
+INFO  17:19:15,160 - #21 proba
+INFO  17:19:15,161 - #21 char
+INFO  17:19:15,163 - #21 x
+INFO  17:19:15,164 - #6 ;
+INFO  17:19:15,167 - #3 {
+INFO  17:19:15,168 - #4 }
+INFO  17:19:15,195 - Program(
+  ProgName(
+   proba
+  ) [ProgName]
+  DeclListFirst(
+    DeclListNoDecl(
+    ) [DeclListNoDecl]
+    DeclarationDerived2(
+      VarDeclMain(
+        VariableDeclaration(
+          Type(
+           char
+          ) [Type]
+          VarDeclHelperDerived1(
+            VarDeclName(
+             x
+            ) [VarDeclName]
+          ) [VarDeclHelperDerived1]
+        ) [VariableDeclaration]
+      ) [VarDeclMain]
+    ) [DeclarationDerived2]
+  ) [DeclListFirst]
+  NoMethodDecl(
+  ) [NoMethodDecl]
+) [Program]
+INFO  17:19:15,195 - ===================================
+INFO  17:19:15,200 - Deklarisana promenljiva x na liniji 3
+INFO  17:19:15,201 -  Print count calls = 0
+INFO  17:19:15,201 -  Deklarisanih promenljivih ima = 1
+INFO  17:19:15,201 - ===================================
+INFO  17:19:15,203 - Parsiranje uspesno zavrseno!

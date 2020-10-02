@@ -1,0 +1,37 @@
+INFO  00:05:32,230 - Compiling source file: C:\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  00:05:32,348 - #2 program
+INFO  00:05:32,348 - #21 prog
+INFO  00:05:32,348 - #33 class
+INFO  00:05:32,350 - #21 Tanja
+INFO  00:05:32,351 - #3 {
+INFO  00:05:32,352 - #4 }
+INFO  00:05:32,354 - #3 {
+INFO  00:05:32,355 - #4 }
+INFO  00:05:32,358 - Program(
+  ProgName(
+   prog
+  ) [ProgName]
+  DeclListFirst(
+    DeclListNoDecl(
+    ) [DeclListNoDecl]
+    DeclarationDerived4(
+      ClassDecl(
+       Tanja
+        NoExtendingClassTypes(
+        ) [NoExtendingClassTypes]
+        NoVarDecl(
+        ) [NoVarDecl]
+        ClassWithOutMethodDecl(
+        ) [ClassWithOutMethodDecl]
+      ) [ClassDecl]
+    ) [DeclarationDerived4]
+  ) [DeclListFirst]
+  NoMethodDecl(
+  ) [NoMethodDecl]
+) [Program]
+INFO  00:05:32,359 - ===================================
+INFO  00:05:32,363 - Print count call = 0
+INFO  00:05:32,363 - Var count calls = 0
+INFO  00:05:32,363 - Const count calls = 0
+INFO  00:05:32,363 - Class count calls = 1
+INFO  00:05:32,364 - Method count calls = 0

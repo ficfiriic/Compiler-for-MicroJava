@@ -1,0 +1,938 @@
+INFO  12:37:59,837 - Compiling source file: C:\pp1lab.templateAST\workspace\MJCompiler\test\program.mj
+INFO  12:37:59,963 - #2 program
+INFO  12:37:59,963 - #21 p
+INFO  12:37:59,963 - #5 const
+INFO  12:37:59,966 - #21 int
+INFO  12:37:59,967 - #21 tanja
+INFO  12:37:59,968 - #14 =
+INFO  12:37:59,968 - #20 350
+INFO  12:37:59,969 - #9 ,
+INFO  12:37:59,971 - #21 nikola
+INFO  12:37:59,971 - #14 =
+INFO  12:37:59,971 - #20 13
+INFO  12:37:59,971 - #6 ;
+INFO  12:37:59,972 - #5 const
+INFO  12:37:59,972 - #21 char
+INFO  12:37:59,972 - #21 n
+INFO  12:37:59,972 - #14 =
+INFO  12:37:59,973 - #23 a
+INFO  12:37:59,973 - #9 ,
+INFO  12:37:59,975 - #21 z
+INFO  12:37:59,975 - #14 =
+INFO  12:37:59,975 - #23 b
+INFO  12:37:59,976 - #6 ;
+INFO  12:38:00,018 - #5 const
+INFO  12:38:00,018 - #21 bool
+INFO  12:38:00,018 - #21 flag
+INFO  12:38:00,019 - #14 =
+INFO  12:38:00,019 - #22 true
+INFO  12:38:00,020 - #9 ,
+INFO  12:38:00,022 - #21 flagB
+INFO  12:38:00,023 - #14 =
+INFO  12:38:00,023 - #22 false
+INFO  12:38:00,024 - #6 ;
+INFO  12:38:00,025 - #21 int
+INFO  12:38:00,026 - #21 x
+INFO  12:38:00,026 - #6 ;
+INFO  12:38:00,029 - #21 int
+INFO  12:38:00,029 - #21 y
+INFO  12:38:00,030 - #9 ,
+INFO  12:38:00,030 - #21 m
+INFO  12:38:00,030 - #6 ;
+INFO  12:38:00,031 - #21 int
+INFO  12:38:00,031 - #21 v
+INFO  12:38:00,033 - #6 ;
+INFO  12:38:00,033 - #21 char
+INFO  12:38:00,034 - #21 c
+INFO  12:38:00,034 - #6 ;
+INFO  12:38:00,034 - #21 char
+INFO  12:38:00,034 - #21 k
+INFO  12:38:00,034 - #6 ;
+INFO  12:38:00,034 - #3 {
+INFO  12:38:00,035 - #21 char
+INFO  12:38:00,037 - #21 f
+INFO  12:38:00,038 - #7 (
+INFO  12:38:00,040 - #8 )
+INFO  12:38:00,041 - #3 {
+INFO  12:38:00,043 - #10 print
+INFO  12:38:00,044 - #7 (
+INFO  12:38:00,044 - #20 4444
+INFO  12:38:00,047 - #8 )
+INFO  12:38:00,048 - #6 ;
+INFO  12:38:00,048 - #12 return
+INFO  12:38:00,048 - #23 t
+INFO  12:38:00,049 - #6 ;
+INFO  12:38:00,049 - #4 }
+INFO  12:38:00,049 - #15 void
+INFO  12:38:00,050 - #21 main
+INFO  12:38:00,053 - #7 (
+INFO  12:38:00,053 - #8 )
+INFO  12:38:00,060 - #3 {
+INFO  12:38:00,060 - #21 x
+INFO  12:38:00,060 - #14 =
+INFO  12:38:00,063 - #20 0
+INFO  12:38:00,066 - #6 ;
+INFO  12:38:00,068 - #10 print
+INFO  12:38:00,069 - #7 (
+INFO  12:38:00,069 - #21 x
+INFO  12:38:00,069 - #8 )
+INFO  12:38:00,070 - #6 ;
+INFO  12:38:00,070 - #21 x
+INFO  12:38:00,070 - #39 ++
+INFO  12:38:00,070 - #6 ;
+INFO  12:38:00,072 - #10 print
+INFO  12:38:00,072 - #7 (
+INFO  12:38:00,090 - #21 x
+INFO  12:38:00,091 - #8 )
+INFO  12:38:00,091 - #6 ;
+INFO  12:38:00,092 - #21 x
+INFO  12:38:00,092 - #39 ++
+INFO  12:38:00,093 - #6 ;
+INFO  12:38:00,093 - #21 x
+INFO  12:38:00,093 - #39 ++
+INFO  12:38:00,093 - #6 ;
+INFO  12:38:00,094 - #21 x
+INFO  12:38:00,095 - #40 --
+INFO  12:38:00,095 - #6 ;
+INFO  12:38:00,097 - #21 x
+INFO  12:38:00,097 - #39 ++
+INFO  12:38:00,097 - #6 ;
+INFO  12:38:00,097 - #21 x
+INFO  12:38:00,098 - #39 ++
+INFO  12:38:00,098 - #6 ;
+INFO  12:38:00,098 - #10 print
+INFO  12:38:00,098 - #7 (
+INFO  12:38:00,099 - #21 x
+INFO  12:38:00,099 - #8 )
+INFO  12:38:00,099 - #6 ;
+INFO  12:38:00,099 - #21 x
+INFO  12:38:00,100 - #40 --
+INFO  12:38:00,100 - #6 ;
+INFO  12:38:00,100 - #10 print
+INFO  12:38:00,100 - #7 (
+INFO  12:38:00,100 - #21 x
+INFO  12:38:00,101 - #8 )
+INFO  12:38:00,101 - #6 ;
+INFO  12:38:00,101 - #21 x
+INFO  12:38:00,102 - #40 --
+INFO  12:38:00,102 - #6 ;
+INFO  12:38:00,102 - #21 x
+INFO  12:38:00,103 - #40 --
+INFO  12:38:00,103 - #6 ;
+INFO  12:38:00,103 - #21 x
+INFO  12:38:00,103 - #40 --
+INFO  12:38:00,104 - #6 ;
+INFO  12:38:00,104 - #21 x
+INFO  12:38:00,104 - #39 ++
+INFO  12:38:00,104 - #6 ;
+INFO  12:38:00,104 - #21 x
+INFO  12:38:00,105 - #40 --
+INFO  12:38:00,105 - #6 ;
+INFO  12:38:00,105 - #21 x
+INFO  12:38:00,105 - #40 --
+INFO  12:38:00,105 - #6 ;
+INFO  12:38:00,105 - #21 x
+INFO  12:38:00,105 - #40 --
+INFO  12:38:00,105 - #6 ;
+INFO  12:38:00,106 - #21 x
+INFO  12:38:00,106 - #39 ++
+INFO  12:38:00,106 - #6 ;
+INFO  12:38:00,106 - #21 x
+INFO  12:38:00,106 - #40 --
+INFO  12:38:00,106 - #6 ;
+INFO  12:38:00,106 - #10 print
+INFO  12:38:00,107 - #7 (
+INFO  12:38:00,107 - #21 x
+INFO  12:38:00,107 - #8 )
+INFO  12:38:00,107 - #6 ;
+INFO  12:38:00,107 - #21 y
+INFO  12:38:00,107 - #14 =
+INFO  12:38:00,107 - #20 2
+INFO  12:38:00,108 - #17 *
+INFO  12:38:00,108 - #7 (
+INFO  12:38:00,110 - #20 5
+INFO  12:38:00,111 - #16 -
+INFO  12:38:00,111 - #20 3
+INFO  12:38:00,113 - #8 )
+INFO  12:38:00,114 - #6 ;
+INFO  12:38:00,114 - #10 print
+INFO  12:38:00,114 - #7 (
+INFO  12:38:00,114 - #21 y
+INFO  12:38:00,115 - #8 )
+INFO  12:38:00,115 - #6 ;
+INFO  12:38:00,115 - #21 y
+INFO  12:38:00,115 - #14 =
+INFO  12:38:00,115 - #16 -
+INFO  12:38:00,115 - #21 y
+INFO  12:38:00,117 - #17 *
+INFO  12:38:00,117 - #20 3
+INFO  12:38:00,117 - #18 /
+INFO  12:38:00,117 - #7 (
+INFO  12:38:00,120 - #20 3
+INFO  12:38:00,121 - #13 +
+INFO  12:38:00,122 - #20 1
+INFO  12:38:00,122 - #8 )
+INFO  12:38:00,122 - #13 +
+INFO  12:38:00,123 - #20 5
+INFO  12:38:00,123 - #6 ;
+INFO  12:38:00,123 - #10 print
+INFO  12:38:00,124 - #7 (
+INFO  12:38:00,124 - #21 y
+INFO  12:38:00,124 - #8 )
+INFO  12:38:00,124 - #6 ;
+INFO  12:38:00,124 - #12 return
+INFO  12:38:00,124 - #6 ;
+INFO  12:38:00,124 - #4 }
+INFO  12:38:00,126 - #4 }
+INFO  12:38:00,166 - Program(
+  ProgName(
+   p
+  ) [ProgName]
+  DeclListFirst(
+    DeclListFirst(
+      DeclListFirst(
+        DeclListFirst(
+          DeclListFirst(
+            DeclListFirst(
+              DeclListFirst(
+                DeclListFirst(
+                  DeclListNoDecl(
+                  ) [DeclListNoDecl]
+                  DeclarationDerived1(
+                    ConstDeclarationMain(
+                      ConstantDeclarations(
+                        ConstantDeclaration(
+                          Type(
+                           int
+                          ) [Type]
+                          ConstantDeclarationHelp(
+                           tanja
+                            NumConstant(
+                              FactNumConst(
+                               350
+                              ) [FactNumConst]
+                            ) [NumConstant]
+                          ) [ConstantDeclarationHelp]
+                        ) [ConstantDeclaration]
+                        ConstantDeclarationHelp(
+                         nikola
+                          NumConstant(
+                            FactNumConst(
+                             13
+                            ) [FactNumConst]
+                          ) [NumConstant]
+                        ) [ConstantDeclarationHelp]
+                      ) [ConstantDeclarations]
+                    ) [ConstDeclarationMain]
+                  ) [DeclarationDerived1]
+                ) [DeclListFirst]
+                DeclarationDerived1(
+                  ConstDeclarationMain(
+                    ConstantDeclarations(
+                      ConstantDeclaration(
+                        Type(
+                         char
+                        ) [Type]
+                        ConstantDeclarationHelp(
+                         n
+                          CharConstant(
+                            FactCharConst(
+                             a
+                            ) [FactCharConst]
+                          ) [CharConstant]
+                        ) [ConstantDeclarationHelp]
+                      ) [ConstantDeclaration]
+                      ConstantDeclarationHelp(
+                       z
+                        CharConstant(
+                          FactCharConst(
+                           b
+                          ) [FactCharConst]
+                        ) [CharConstant]
+                      ) [ConstantDeclarationHelp]
+                    ) [ConstantDeclarations]
+                  ) [ConstDeclarationMain]
+                ) [DeclarationDerived1]
+              ) [DeclListFirst]
+              DeclarationDerived1(
+                ConstDeclarationMain(
+                  ConstantDeclarations(
+                    ConstantDeclaration(
+                      Type(
+                       bool
+                      ) [Type]
+                      ConstantDeclarationHelp(
+                       flag
+                        BoolConstant(
+                          FactBoolConst(
+                           true
+                          ) [FactBoolConst]
+                        ) [BoolConstant]
+                      ) [ConstantDeclarationHelp]
+                    ) [ConstantDeclaration]
+                    ConstantDeclarationHelp(
+                     flagB
+                      BoolConstant(
+                        FactBoolConst(
+                         false
+                        ) [FactBoolConst]
+                      ) [BoolConstant]
+                    ) [ConstantDeclarationHelp]
+                  ) [ConstantDeclarations]
+                ) [ConstDeclarationMain]
+              ) [DeclarationDerived1]
+            ) [DeclListFirst]
+            DeclarationDerived2(
+              VarDeclMain(
+                VariableDeclaration(
+                  Type(
+                   int
+                  ) [Type]
+                  VarDeclHelperDerived1(
+                    VarDeclName(
+                     x
+                    ) [VarDeclName]
+                  ) [VarDeclHelperDerived1]
+                ) [VariableDeclaration]
+              ) [VarDeclMain]
+            ) [DeclarationDerived2]
+          ) [DeclListFirst]
+          DeclarationDerived2(
+            VarDeclMain(
+              VariablesDeclarations(
+                VariableDeclaration(
+                  Type(
+                   int
+                  ) [Type]
+                  VarDeclHelperDerived1(
+                    VarDeclName(
+                     y
+                    ) [VarDeclName]
+                  ) [VarDeclHelperDerived1]
+                ) [VariableDeclaration]
+                VarDeclHelperDerived1(
+                  VarDeclName(
+                   m
+                  ) [VarDeclName]
+                ) [VarDeclHelperDerived1]
+              ) [VariablesDeclarations]
+            ) [VarDeclMain]
+          ) [DeclarationDerived2]
+        ) [DeclListFirst]
+        DeclarationDerived2(
+          VarDeclMain(
+            VariableDeclaration(
+              Type(
+               int
+              ) [Type]
+              VarDeclHelperDerived1(
+                VarDeclName(
+                 v
+                ) [VarDeclName]
+              ) [VarDeclHelperDerived1]
+            ) [VariableDeclaration]
+          ) [VarDeclMain]
+        ) [DeclarationDerived2]
+      ) [DeclListFirst]
+      DeclarationDerived2(
+        VarDeclMain(
+          VariableDeclaration(
+            Type(
+             char
+            ) [Type]
+            VarDeclHelperDerived1(
+              VarDeclName(
+               c
+              ) [VarDeclName]
+            ) [VarDeclHelperDerived1]
+          ) [VariableDeclaration]
+        ) [VarDeclMain]
+      ) [DeclarationDerived2]
+    ) [DeclListFirst]
+    DeclarationDerived2(
+      VarDeclMain(
+        VariableDeclaration(
+          Type(
+           char
+          ) [Type]
+          VarDeclHelperDerived1(
+            VarDeclName(
+             k
+            ) [VarDeclName]
+          ) [VarDeclHelperDerived1]
+        ) [VariableDeclaration]
+      ) [VarDeclMain]
+    ) [DeclarationDerived2]
+  ) [DeclListFirst]
+  MethodDeclarations(
+    MethodDeclarations(
+      NoMethodDecl(
+      ) [NoMethodDecl]
+      MethodDeclMain(
+        MethodTypeName(
+          MethodReturnTypeMain(
+            Type(
+             char
+            ) [Type]
+          ) [MethodReturnTypeMain]
+         f
+        ) [MethodTypeName]
+        NoFormParam(
+        ) [NoFormParam]
+        NoVarDecl(
+        ) [NoVarDecl]
+        Statements(
+          Statements(
+            NoStmt(
+            ) [NoStmt]
+            PrintStmtWithOutNumConst(
+              TermExpr(
+                NonMinus(
+                ) [NonMinus]
+                TermMain(
+                  NumConst(
+                    FactNumConst(
+                     4444
+                    ) [FactNumConst]
+                  ) [NumConst]
+                ) [TermMain]
+              ) [TermExpr]
+            ) [PrintStmtWithOutNumConst]
+          ) [Statements]
+          ReturnExpr(
+            TermExpr(
+              NonMinus(
+              ) [NonMinus]
+              TermMain(
+                CharConst(
+                  FactCharConst(
+                   t
+                  ) [FactCharConst]
+                ) [CharConst]
+              ) [TermMain]
+            ) [TermExpr]
+          ) [ReturnExpr]
+        ) [Statements]
+      ) [MethodDeclMain]
+    ) [MethodDeclarations]
+    MethodDeclMain(
+      MethodTypeName(
+        MethodVoidReturnType(
+        ) [MethodVoidReturnType]
+       main
+      ) [MethodTypeName]
+      NoFormParam(
+      ) [NoFormParam]
+      NoVarDecl(
+      ) [NoVarDecl]
+      Statements(
+        Statements(
+          Statements(
+            Statements(
+              Statements(
+                Statements(
+                  Statements(
+                    Statements(
+                      Statements(
+                        Statements(
+                          Statements(
+                            Statements(
+                              Statements(
+                                Statements(
+                                  Statements(
+                                    Statements(
+                                      Statements(
+                                        Statements(
+                                          Statements(
+                                            Statements(
+                                              Statements(
+                                                Statements(
+                                                  Statements(
+                                                    Statements(
+                                                      Statements(
+                                                        Statements(
+                                                          Statements(
+                                                            NoStmt(
+                                                            ) [NoStmt]
+                                                            Assignment(
+                                                              DesignatorStatement(
+                                                                Designator(
+                                                                 x
+                                                                  NoDesignatorHelperList(
+                                                                  ) [NoDesignatorHelperList]
+                                                                ) [Designator]
+                                                                DesignatorStatementHelperEqual(
+                                                                  Assignop(
+                                                                  ) [Assignop]
+                                                                  TermExpr(
+                                                                    NonMinus(
+                                                                    ) [NonMinus]
+                                                                    TermMain(
+                                                                      NumConst(
+                                                                        FactNumConst(
+                                                                         0
+                                                                        ) [FactNumConst]
+                                                                      ) [NumConst]
+                                                                    ) [TermMain]
+                                                                  ) [TermExpr]
+                                                                ) [DesignatorStatementHelperEqual]
+                                                              ) [DesignatorStatement]
+                                                            ) [Assignment]
+                                                          ) [Statements]
+                                                          PrintStmtWithOutNumConst(
+                                                            TermExpr(
+                                                              NonMinus(
+                                                              ) [NonMinus]
+                                                              TermMain(
+                                                                Var(
+                                                                  Designator(
+                                                                   x
+                                                                    NoDesignatorHelperList(
+                                                                    ) [NoDesignatorHelperList]
+                                                                  ) [Designator]
+                                                                ) [Var]
+                                                              ) [TermMain]
+                                                            ) [TermExpr]
+                                                          ) [PrintStmtWithOutNumConst]
+                                                        ) [Statements]
+                                                        Assignment(
+                                                          DesignatorStatement(
+                                                            Designator(
+                                                             x
+                                                              NoDesignatorHelperList(
+                                                              ) [NoDesignatorHelperList]
+                                                            ) [Designator]
+                                                            DesignatorStatementHelperInc(
+                                                            ) [DesignatorStatementHelperInc]
+                                                          ) [DesignatorStatement]
+                                                        ) [Assignment]
+                                                      ) [Statements]
+                                                      PrintStmtWithOutNumConst(
+                                                        TermExpr(
+                                                          NonMinus(
+                                                          ) [NonMinus]
+                                                          TermMain(
+                                                            Var(
+                                                              Designator(
+                                                               x
+                                                                NoDesignatorHelperList(
+                                                                ) [NoDesignatorHelperList]
+                                                              ) [Designator]
+                                                            ) [Var]
+                                                          ) [TermMain]
+                                                        ) [TermExpr]
+                                                      ) [PrintStmtWithOutNumConst]
+                                                    ) [Statements]
+                                                    Assignment(
+                                                      DesignatorStatement(
+                                                        Designator(
+                                                         x
+                                                          NoDesignatorHelperList(
+                                                          ) [NoDesignatorHelperList]
+                                                        ) [Designator]
+                                                        DesignatorStatementHelperInc(
+                                                        ) [DesignatorStatementHelperInc]
+                                                      ) [DesignatorStatement]
+                                                    ) [Assignment]
+                                                  ) [Statements]
+                                                  Assignment(
+                                                    DesignatorStatement(
+                                                      Designator(
+                                                       x
+                                                        NoDesignatorHelperList(
+                                                        ) [NoDesignatorHelperList]
+                                                      ) [Designator]
+                                                      DesignatorStatementHelperInc(
+                                                      ) [DesignatorStatementHelperInc]
+                                                    ) [DesignatorStatement]
+                                                  ) [Assignment]
+                                                ) [Statements]
+                                                Assignment(
+                                                  DesignatorStatement(
+                                                    Designator(
+                                                     x
+                                                      NoDesignatorHelperList(
+                                                      ) [NoDesignatorHelperList]
+                                                    ) [Designator]
+                                                    DesignatorStatementHelperDec(
+                                                    ) [DesignatorStatementHelperDec]
+                                                  ) [DesignatorStatement]
+                                                ) [Assignment]
+                                              ) [Statements]
+                                              Assignment(
+                                                DesignatorStatement(
+                                                  Designator(
+                                                   x
+                                                    NoDesignatorHelperList(
+                                                    ) [NoDesignatorHelperList]
+                                                  ) [Designator]
+                                                  DesignatorStatementHelperInc(
+                                                  ) [DesignatorStatementHelperInc]
+                                                ) [DesignatorStatement]
+                                              ) [Assignment]
+                                            ) [Statements]
+                                            Assignment(
+                                              DesignatorStatement(
+                                                Designator(
+                                                 x
+                                                  NoDesignatorHelperList(
+                                                  ) [NoDesignatorHelperList]
+                                                ) [Designator]
+                                                DesignatorStatementHelperInc(
+                                                ) [DesignatorStatementHelperInc]
+                                              ) [DesignatorStatement]
+                                            ) [Assignment]
+                                          ) [Statements]
+                                          PrintStmtWithOutNumConst(
+                                            TermExpr(
+                                              NonMinus(
+                                              ) [NonMinus]
+                                              TermMain(
+                                                Var(
+                                                  Designator(
+                                                   x
+                                                    NoDesignatorHelperList(
+                                                    ) [NoDesignatorHelperList]
+                                                  ) [Designator]
+                                                ) [Var]
+                                              ) [TermMain]
+                                            ) [TermExpr]
+                                          ) [PrintStmtWithOutNumConst]
+                                        ) [Statements]
+                                        Assignment(
+                                          DesignatorStatement(
+                                            Designator(
+                                             x
+                                              NoDesignatorHelperList(
+                                              ) [NoDesignatorHelperList]
+                                            ) [Designator]
+                                            DesignatorStatementHelperDec(
+                                            ) [DesignatorStatementHelperDec]
+                                          ) [DesignatorStatement]
+                                        ) [Assignment]
+                                      ) [Statements]
+                                      PrintStmtWithOutNumConst(
+                                        TermExpr(
+                                          NonMinus(
+                                          ) [NonMinus]
+                                          TermMain(
+                                            Var(
+                                              Designator(
+                                               x
+                                                NoDesignatorHelperList(
+                                                ) [NoDesignatorHelperList]
+                                              ) [Designator]
+                                            ) [Var]
+                                          ) [TermMain]
+                                        ) [TermExpr]
+                                      ) [PrintStmtWithOutNumConst]
+                                    ) [Statements]
+                                    Assignment(
+                                      DesignatorStatement(
+                                        Designator(
+                                         x
+                                          NoDesignatorHelperList(
+                                          ) [NoDesignatorHelperList]
+                                        ) [Designator]
+                                        DesignatorStatementHelperDec(
+                                        ) [DesignatorStatementHelperDec]
+                                      ) [DesignatorStatement]
+                                    ) [Assignment]
+                                  ) [Statements]
+                                  Assignment(
+                                    DesignatorStatement(
+                                      Designator(
+                                       x
+                                        NoDesignatorHelperList(
+                                        ) [NoDesignatorHelperList]
+                                      ) [Designator]
+                                      DesignatorStatementHelperDec(
+                                      ) [DesignatorStatementHelperDec]
+                                    ) [DesignatorStatement]
+                                  ) [Assignment]
+                                ) [Statements]
+                                Assignment(
+                                  DesignatorStatement(
+                                    Designator(
+                                     x
+                                      NoDesignatorHelperList(
+                                      ) [NoDesignatorHelperList]
+                                    ) [Designator]
+                                    DesignatorStatementHelperDec(
+                                    ) [DesignatorStatementHelperDec]
+                                  ) [DesignatorStatement]
+                                ) [Assignment]
+                              ) [Statements]
+                              Assignment(
+                                DesignatorStatement(
+                                  Designator(
+                                   x
+                                    NoDesignatorHelperList(
+                                    ) [NoDesignatorHelperList]
+                                  ) [Designator]
+                                  DesignatorStatementHelperInc(
+                                  ) [DesignatorStatementHelperInc]
+                                ) [DesignatorStatement]
+                              ) [Assignment]
+                            ) [Statements]
+                            Assignment(
+                              DesignatorStatement(
+                                Designator(
+                                 x
+                                  NoDesignatorHelperList(
+                                  ) [NoDesignatorHelperList]
+                                ) [Designator]
+                                DesignatorStatementHelperDec(
+                                ) [DesignatorStatementHelperDec]
+                              ) [DesignatorStatement]
+                            ) [Assignment]
+                          ) [Statements]
+                          Assignment(
+                            DesignatorStatement(
+                              Designator(
+                               x
+                                NoDesignatorHelperList(
+                                ) [NoDesignatorHelperList]
+                              ) [Designator]
+                              DesignatorStatementHelperDec(
+                              ) [DesignatorStatementHelperDec]
+                            ) [DesignatorStatement]
+                          ) [Assignment]
+                        ) [Statements]
+                        Assignment(
+                          DesignatorStatement(
+                            Designator(
+                             x
+                              NoDesignatorHelperList(
+                              ) [NoDesignatorHelperList]
+                            ) [Designator]
+                            DesignatorStatementHelperDec(
+                            ) [DesignatorStatementHelperDec]
+                          ) [DesignatorStatement]
+                        ) [Assignment]
+                      ) [Statements]
+                      Assignment(
+                        DesignatorStatement(
+                          Designator(
+                           x
+                            NoDesignatorHelperList(
+                            ) [NoDesignatorHelperList]
+                          ) [Designator]
+                          DesignatorStatementHelperInc(
+                          ) [DesignatorStatementHelperInc]
+                        ) [DesignatorStatement]
+                      ) [Assignment]
+                    ) [Statements]
+                    Assignment(
+                      DesignatorStatement(
+                        Designator(
+                         x
+                          NoDesignatorHelperList(
+                          ) [NoDesignatorHelperList]
+                        ) [Designator]
+                        DesignatorStatementHelperDec(
+                        ) [DesignatorStatementHelperDec]
+                      ) [DesignatorStatement]
+                    ) [Assignment]
+                  ) [Statements]
+                  PrintStmtWithOutNumConst(
+                    TermExpr(
+                      NonMinus(
+                      ) [NonMinus]
+                      TermMain(
+                        Var(
+                          Designator(
+                           x
+                            NoDesignatorHelperList(
+                            ) [NoDesignatorHelperList]
+                          ) [Designator]
+                        ) [Var]
+                      ) [TermMain]
+                    ) [TermExpr]
+                  ) [PrintStmtWithOutNumConst]
+                ) [Statements]
+                Assignment(
+                  DesignatorStatement(
+                    Designator(
+                     y
+                      NoDesignatorHelperList(
+                      ) [NoDesignatorHelperList]
+                    ) [Designator]
+                    DesignatorStatementHelperEqual(
+                      Assignop(
+                      ) [Assignop]
+                      TermExpr(
+                        NonMinus(
+                        ) [NonMinus]
+                        MulTerm(
+                          TermMain(
+                            NumConst(
+                              FactNumConst(
+                               2
+                              ) [FactNumConst]
+                            ) [NumConst]
+                          ) [TermMain]
+                          Multipleop(
+                          ) [Multipleop]
+                          Expression(
+                            AddExpr(
+                              TermExpr(
+                                NonMinus(
+                                ) [NonMinus]
+                                TermMain(
+                                  NumConst(
+                                    FactNumConst(
+                                     5
+                                    ) [FactNumConst]
+                                  ) [NumConst]
+                                ) [TermMain]
+                              ) [TermExpr]
+                              Subop(
+                              ) [Subop]
+                              TermMain(
+                                NumConst(
+                                  FactNumConst(
+                                   3
+                                  ) [FactNumConst]
+                                ) [NumConst]
+                              ) [TermMain]
+                            ) [AddExpr]
+                          ) [Expression]
+                        ) [MulTerm]
+                      ) [TermExpr]
+                    ) [DesignatorStatementHelperEqual]
+                  ) [DesignatorStatement]
+                ) [Assignment]
+              ) [Statements]
+              PrintStmtWithOutNumConst(
+                TermExpr(
+                  NonMinus(
+                  ) [NonMinus]
+                  TermMain(
+                    Var(
+                      Designator(
+                       y
+                        NoDesignatorHelperList(
+                        ) [NoDesignatorHelperList]
+                      ) [Designator]
+                    ) [Var]
+                  ) [TermMain]
+                ) [TermExpr]
+              ) [PrintStmtWithOutNumConst]
+            ) [Statements]
+            Assignment(
+              DesignatorStatement(
+                Designator(
+                 y
+                  NoDesignatorHelperList(
+                  ) [NoDesignatorHelperList]
+                ) [Designator]
+                DesignatorStatementHelperEqual(
+                  Assignop(
+                  ) [Assignop]
+                  AddExpr(
+                    TermExpr(
+                      Minus(
+                      ) [Minus]
+                      MulTerm(
+                        MulTerm(
+                          TermMain(
+                            Var(
+                              Designator(
+                               y
+                                NoDesignatorHelperList(
+                                ) [NoDesignatorHelperList]
+                              ) [Designator]
+                            ) [Var]
+                          ) [TermMain]
+                          Multipleop(
+                          ) [Multipleop]
+                          NumConst(
+                            FactNumConst(
+                             3
+                            ) [FactNumConst]
+                          ) [NumConst]
+                        ) [MulTerm]
+                        Divop(
+                        ) [Divop]
+                        Expression(
+                          AddExpr(
+                            TermExpr(
+                              NonMinus(
+                              ) [NonMinus]
+                              TermMain(
+                                NumConst(
+                                  FactNumConst(
+                                   3
+                                  ) [FactNumConst]
+                                ) [NumConst]
+                              ) [TermMain]
+                            ) [TermExpr]
+                            Addop(
+                            ) [Addop]
+                            TermMain(
+                              NumConst(
+                                FactNumConst(
+                                 1
+                                ) [FactNumConst]
+                              ) [NumConst]
+                            ) [TermMain]
+                          ) [AddExpr]
+                        ) [Expression]
+                      ) [MulTerm]
+                    ) [TermExpr]
+                    Addop(
+                    ) [Addop]
+                    TermMain(
+                      NumConst(
+                        FactNumConst(
+                         5
+                        ) [FactNumConst]
+                      ) [NumConst]
+                    ) [TermMain]
+                  ) [AddExpr]
+                ) [DesignatorStatementHelperEqual]
+              ) [DesignatorStatement]
+            ) [Assignment]
+          ) [Statements]
+          PrintStmtWithOutNumConst(
+            TermExpr(
+              NonMinus(
+              ) [NonMinus]
+              TermMain(
+                Var(
+                  Designator(
+                   y
+                    NoDesignatorHelperList(
+                    ) [NoDesignatorHelperList]
+                  ) [Designator]
+                ) [Var]
+              ) [TermMain]
+            ) [TermExpr]
+          ) [PrintStmtWithOutNumConst]
+        ) [Statements]
+        ReturnNoExpr(
+        ) [ReturnNoExpr]
+      ) [Statements]
+    ) [MethodDeclMain]
+  ) [MethodDeclarations]
+) [Program]
+INFO  12:38:00,181 - ===================================
+INFO  12:38:00,191 - Deklarisana konstanta tanja na liniji 4
+INFO  12:38:00,192 - Deklarisana konstanta nikola na liniji 4
+INFO  12:38:00,192 - Deklarisana konstanta n na liniji 5
+INFO  12:38:00,192 - Deklarisana konstanta z na liniji 5
+INFO  12:38:00,192 - Deklarisana konstanta flag na liniji 6
+INFO  12:38:00,192 - Deklarisana konstanta flagB na liniji 6
+INFO  12:38:00,192 - Deklarisana promenljiva x na liniji 7
+INFO  12:38:00,193 - Deklarisana promenljiva y na liniji 8
+INFO  12:38:00,193 - Deklarisana promenljiva m na liniji 8
+INFO  12:38:00,193 - Deklarisana promenljiva v na liniji 9
+INFO  12:38:00,193 - Deklarisana promenljiva c na liniji 10
+INFO  12:38:00,193 - Deklarisana promenljiva k na liniji 11
+INFO  12:38:00,193 - Obradjuje se funkcija f na liniji 14
+INFO  12:38:00,194 - Obradjuje se funkcija main na liniji 16
+INFO  12:38:00,194 -  Print count calls = 0
+INFO  12:38:00,194 -  Deklarisanih promenljivih ima = 6
+INFO  12:38:00,194 - ===================================
+INFO  12:38:00,214 - Parsiranje uspesno zavrseno!
